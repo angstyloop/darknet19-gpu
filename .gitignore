@@ -1,4 +1,6 @@
 images
+darknet
+predict_classifier_multi
 
 # Prerequisites
 *.d
