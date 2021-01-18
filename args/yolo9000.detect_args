@@ -1,0 +1,3 @@
+export DARKNET_DATA=cfg/combine9k.data
+export DARKNET_CFG=cfg/yolo9000.cfg
+export DARKNET_WEIGHTS=weights/yolo9000.weights

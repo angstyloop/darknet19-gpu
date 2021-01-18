@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ "$1" ]; then
+    IMAGE_DIRECTORY=$1
+else
+    IMAGE_DIRECTORY=demo_images
+fi
+docker build -t darknet:latest --build-arg "IMAGE_DIRECTORY=$IMAGE_DIRECTORY" . && \
+docker run -it darknet:latest /bin/bash
