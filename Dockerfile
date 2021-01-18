@@ -21,8 +21,9 @@ RUN pip3 install setuptools wheel virtualenv awscli --upgrade
 # get original darknet source
 RUN git clone https://github.com/pjreddie/darknet.git
 
-# modify darknet source. mostly removes printf statements that are nice for debugging, but not essential to prediction.
+# modify darknet Makefile source. mostly removes printf statements that are nice for debugging, but not essential to prediction.
 COPY src/* darknet/src/
+COPY Makefile darknet/
 
 # build the modified source code, and copy the static library (libdarknet.a) and shared library (libdarknet.so)
 RUN cd darknet && \
