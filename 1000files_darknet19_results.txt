@@ -1,0 +1,6001 @@
+./predict_classifier_multi cfg/imagenet1k.data cfg/darknet19_448.cfg weights/darknet19_448.weights 5 images/1172.jpg images/1173.jpg images/1174.jpg images/1175.jpg images/1176.jpg images/1177.jpg images/1178.jpg images/1179.jpg images/118.jpg images/1180.jpg images/1181.jpg images/1182.jpg images/1183.jpg images/1184.jpg images/1185.jpg images/1186.jpg images/1187.jpg images/1188.jpg images/119.jpg images/1190.jpg images/1191.jpg images/1192.jpg images/1194.jpg images/1195.jpg images/1196.jpg images/1197.jpg images/1198.jpg images/1199.jpg images/12.jpg images/120.jpg images/1200.jpg images/1202.jpg images/1203.jpg images/1204.jpg images/1205.jpg images/1206.jpg images/1207.jpg images/1208.jpg images/1209.jpg images/121.jpg images/1210.jpg images/1211.jpg images/1212.jpg images/1213.jpg images/1214.jpg images/1215.jpg images/122.jpg images/123.jpg images/124.jpg images/125.jpg images/126.jpg images/127.jpg images/128.jpg images/129.jpg images/13.jpg images/130.jpg images/131.jpg images/132.jpg images/133.jpg images/134.jpg images/135.jpg images/136.jpg images/137.jpg images/138.jpg images/139.jpg images/14.jpg images/140.jpg images/141.jpg images/142.jpg images/143.jpg images/144.jpg images/145.jpg images/146.jpg images/147.jpg images/148.jpg images/149.jpg images/15.jpg images/150.jpg images/151.jpg images/152.jpg images/153.jpg images/154.jpg images/155.jpg images/156.jpg images/157.jpg images/158.jpg images/159.jpg images/16.jpg images/160.jpg images/161.jpg images/162.jpg images/163.jpg images/164.jpg images/165.jpg images/166.jpg images/167.jpg images/168.jpg images/169.jpg images/17.jpg images/171.jpg images/172.jpg images/173.jpg images/174.jpg images/175.jpg images/176.jpg images/177.jpg images/178.jpg images/179.jpg images/18.jpg images/180.jpg images/181.jpg images/183.jpg images/184.jpg images/186.jpg images/187.jpg images/189.jpg images/19.jpg images/190.jpg images/191.jpg images/192.jpg images/193.jpg images/194.jpg images/195.jpg images/196.jpg images/197.jpg images/198.jpg images/199.jpg images/2.jpg images/20.jpg images/200.jpg images/201.jpg images/202.jpg images/203.jpg images/204.jpg images/205.jpg images/206.jpg images/207.jpg images/208.jpg images/209.jpg images/21.jpg images/210.jpg images/211.jpg images/212.jpg images/213.jpg images/214.jpg images/215.jpg images/216.jpg images/218.jpg images/22.jpg images/220.jpg images/221.jpg images/222.jpg images/223.jpg images/224.jpg images/225.jpg images/226.jpg images/227.jpg images/228.jpg images/229.jpg images/23.jpg images/230.jpg images/231.jpg images/232.jpg images/233.jpg images/234.jpg images/235.jpg images/236.jpg images/237.jpg images/238.jpg images/239.jpg images/24.jpg images/240.jpg images/241.jpg images/242.jpg images/243.jpg images/244.jpg images/245.jpg images/246.jpg images/247.jpg images/248.jpg images/249.jpg images/25.jpg images/250.jpg images/252.jpg images/253.jpg images/254.jpg images/255.jpg images/256.jpg images/257.jpg images/258.jpg images/259.jpg images/26.jpg images/260.jpg images/261.jpg images/262.jpg images/263.jpg images/264.jpg images/265.jpg images/266.jpg images/267.jpg images/268.jpg images/269.jpg images/27.jpg images/270.jpg images/271.jpg images/272.jpg images/273.jpg images/274.jpg images/275.jpg images/276.jpg images/277.jpg images/278.jpg images/279.jpg images/28.jpg images/280.jpg images/281.jpg images/282.jpg images/283.jpg images/284.jpg images/285.jpg images/286.jpg images/287.jpg images/288.jpg images/289.jpg images/29.jpg images/290.jpg images/291.jpg images/292.jpg images/293.jpg images/294.jpg images/295.jpg images/296.jpg images/297.jpg images/298.jpg images/299.jpg images/3.jpg images/30.jpg images/300.jpg images/301.jpg images/302.jpg images/303.jpg images/304.jpg images/305.jpg images/306.jpg images/307.jpg images/308.jpg images/309.jpg images/31.jpg images/310.jpg images/311.jpg images/312.jpg images/313.jpg images/314.jpg images/315.jpg images/316.jpg images/317.jpg images/318.jpg images/319.jpg images/32.jpg images/320.jpg images/321.jpg images/322.jpg images/323.jpg images/324.jpg images/325.jpg images/326.jpg images/327.jpg images/328.jpg images/329.jpg images/33.jpg images/330.jpg images/331.jpg images/332.jpg images/333.jpg images/334.jpg images/335.jpg images/336.jpg images/337.jpg images/339.jpg images/34.jpg images/340.jpg images/341.jpg images/342.jpg images/343.jpg images/344.jpg images/345.jpg images/346.jpg images/347.jpg images/348.jpg images/349.jpg images/35.jpg images/350.jpg images/351.jpg images/352.jpg images/353.jpg images/354.jpg images/355.jpg images/356.jpg images/357.jpg images/358.jpg images/359.jpg images/36.jpg images/360.jpg images/361.jpg images/362.jpg images/363.jpg images/364.jpg images/365.jpg images/366.jpg images/367.jpg images/368.jpg images/369.jpg images/37.jpg images/370.jpg images/371.jpg images/372.jpg images/373.jpg images/374.jpg images/375.jpg images/376.jpg images/377.jpg images/378.jpg images/379.jpg images/38.jpg images/381.jpg images/382.jpg images/383.jpg images/384.jpg images/385.jpg images/386.jpg images/387.jpg images/388.jpg images/389.jpg images/39.jpg images/390.jpg images/391.jpg images/392.jpg images/393.jpg images/394.jpg images/395.jpg images/396.jpg images/397.jpg images/398.jpg images/399.jpg images/4.jpg images/40.jpg images/400.jpg images/401.jpg images/402.jpg images/403.jpg images/404.jpg images/405.jpg images/406.jpg images/407.jpg images/408.jpg images/409.jpg images/41.jpg images/410.jpg images/411.jpg images/412.jpg images/413.jpg images/414.jpg images/415.jpg images/416.jpg images/417.jpg images/418.jpg images/419.jpg images/42.jpg images/420.jpg images/421.jpg images/422.jpg images/423.jpg images/424.jpg images/425.jpg images/426.jpg images/427.jpg images/428.jpg images/429.jpg images/43.jpg images/430.jpg images/431.jpg images/432.jpg images/433.jpg images/434.jpg images/435.jpg images/436.jpg images/437.jpg images/438.jpg images/439.jpg images/44.jpg images/440.jpg images/441.jpg images/442.jpg images/443.jpg images/444.jpg images/445.jpg images/446.jpg images/447.jpg images/448.jpg images/449.jpg images/45.jpg images/450.jpg images/451.jpg images/452.jpg images/453.jpg images/454.jpg images/455.jpg images/456.jpg images/457.jpg images/458.jpg images/46.jpg images/460.jpg images/461.jpg images/462.jpg images/463.jpg images/464.jpg images/465.jpg images/466.jpg images/467.jpg images/468.jpg images/469.jpg images/47.jpg images/470.jpg images/471.jpg images/472.jpg images/473.jpg images/474.jpg images/475.jpg images/476.jpg images/477.jpg images/479.jpg images/48.jpg images/480.jpg images/481.jpg images/482.jpg images/483.jpg images/484.jpg images/485.jpg images/486.jpg images/487.jpg images/488.jpg images/489.jpg images/49.jpg images/490.jpg images/491.jpg images/492.jpg images/493.jpg images/494.jpg images/495.jpg images/496.jpg images/497.jpg images/498.jpg images/499.jpg images/5.jpg images/500.jpg images/501.jpg images/502.jpg images/503.jpg images/504.jpg images/505.jpg images/506.jpg images/507.jpg images/508.jpg images/509.jpg images/51.jpg images/510.jpg images/511.jpg images/512.jpg images/513.jpg images/514.jpg images/515.jpg images/516.jpg images/517.jpg images/518.jpg images/519.jpg images/52.jpg images/520.jpg images/521.jpg images/522.jpg images/523.jpg images/524.jpg images/525.jpg images/526.jpg images/527.jpg images/528.jpg images/529.jpg images/53.jpg images/530.jpg images/531.jpg images/532.jpg images/533.jpg images/534.jpg images/535.jpg images/536.jpg images/537.jpg images/538.jpg images/539.jpg images/54.jpg images/540.jpg images/541.jpg images/542.jpg images/543.jpg images/544.jpg images/545.jpg images/546.jpg images/547.jpg images/548.jpg images/549.jpg images/55.jpg images/550.jpg images/551.jpg images/552.jpg images/553.jpg images/555.jpg images/556.jpg images/557.jpg images/558.jpg images/559.jpg images/56.jpg images/560.jpg images/561.jpg images/563.jpg images/564.jpg images/565.jpg images/566.jpg images/567.jpg images/568.jpg images/569.jpg images/57.jpg images/570.jpg images/571.jpg images/572.jpg images/573.jpg images/574.jpg images/575.jpg images/576.jpg images/577.jpg images/578.jpg images/579.jpg images/58.jpg images/580.jpg images/581.jpg images/582.jpg images/583.jpg images/584.jpg images/585.jpg images/586.jpg images/587.jpg images/588.jpg images/589.jpg images/59.jpg images/590.jpg images/591.jpg images/592.jpg images/593.jpg images/594.jpg images/595.jpg images/596.jpg images/597.jpg images/598.jpg images/599.jpg images/6.jpg images/60.jpg images/600.jpg images/601.jpg images/602.jpg images/603.jpg images/604.jpg images/605.jpg images/606.jpg images/607.jpg images/609.jpg images/61.jpg images/610.jpg images/611.jpg images/612.jpg images/613.jpg images/614.jpg images/615.jpg images/616.jpg images/617.jpg images/618.jpg images/619.jpg images/62.jpg images/620.jpg images/621.jpg images/622.jpg images/623.jpg images/624.jpg images/625.jpg images/626.jpg images/627.jpg images/628.jpg images/629.jpg images/63.jpg images/630.jpg images/631.jpg images/632.jpg images/633.jpg images/634.jpg images/635.jpg images/636.jpg images/637.jpg images/638.jpg images/64.jpg images/640.jpg images/641.jpg images/642.jpg images/643.jpg images/644.jpg images/645.jpg images/646.jpg images/647.jpg images/648.jpg images/649.jpg images/65.jpg images/650.jpg images/651.jpg images/652.jpg images/653.jpg images/654.jpg images/655.jpg images/656.jpg images/657.jpg images/658.jpg images/659.jpg images/66.jpg images/660.jpg images/661.jpg images/662.jpg images/663.jpg images/664.jpg images/665.jpg images/666.jpg images/667.jpg images/668.jpg images/669.jpg images/67.jpg images/670.jpg images/671.jpg images/672.jpg images/673.jpg images/674.jpg images/675.jpg images/676.jpg images/677.jpg images/678.jpg images/679.jpg images/680.jpg images/681.jpg images/682.jpg images/683.jpg images/684.jpg images/685.jpg images/686.jpg images/687.jpg images/688.jpg images/689.jpg images/69.jpg images/690.jpg images/691.jpg images/692.jpg images/693.jpg images/694.jpg images/695.jpg images/696.jpg images/697.jpg images/698.jpg images/699.jpg images/7.jpg images/70.jpg images/700.jpg images/701.jpg images/702.jpg images/703.jpg images/704.jpg images/705.jpg images/706.jpg images/707.jpg images/708.jpg images/709.jpg images/71.jpg images/710.jpg images/711.jpg images/712.jpg images/713.jpg images/714.jpg images/715.jpg images/716.jpg images/717.jpg images/718.jpg images/719.jpg images/72.jpg images/720.jpg images/721.jpg images/722.jpg images/723.jpg images/724.jpg images/725.jpg images/726.jpg images/727.jpg images/728.jpg images/729.jpg images/73.jpg images/730.jpg images/731.jpg images/732.jpg images/733.jpg images/734.jpg images/735.jpg images/736.jpg images/737.jpg images/738.jpg images/739.jpg images/74.jpg images/740.jpg images/741.jpg images/742.jpg images/743.jpg images/744.jpg images/745.jpg images/746.jpg images/747.jpg images/748.jpg images/749.jpg images/75.jpg images/750.jpg images/751.jpg images/752.jpg images/753.jpg images/754.jpg images/755.jpg images/756.jpg images/757.jpg images/758.jpg images/759.jpg images/76.jpg images/760.jpg images/761.jpg images/762.jpg images/763.jpg images/764.jpg images/765.jpg images/766.jpg images/767.jpg images/768.jpg images/769.jpg images/77.jpg images/770.jpg images/771.jpg images/772.jpg images/773.jpg images/774.jpg images/775.jpg images/776.jpg images/777.jpg images/778.jpg images/779.jpg images/78.jpg images/780.jpg images/781.jpg images/782.jpg images/783.jpg images/784.jpg images/785.jpg images/786.jpg images/787.jpg images/788.jpg images/789.jpg images/79.jpg images/790.jpg images/791.jpg images/792.jpg images/793.jpg images/794.jpg images/795.jpg images/796.jpg images/797.jpg images/798.jpg images/799.jpg images/8.jpg images/80.jpg images/800.jpg images/801.jpg images/802.jpg images/803.jpg images/804.jpg images/805.jpg images/806.jpg images/807.jpg images/808.jpg images/809.jpg images/81.jpg images/810.jpg images/811.jpg images/812.jpg images/813.jpg images/814.jpg images/815.jpg images/816.jpg images/817.jpg images/818.jpg images/819.jpg images/82.jpg images/820.jpg images/821.jpg images/822.jpg images/823.jpg images/824.jpg images/825.jpg images/826.jpg images/827.jpg images/828.jpg images/829.jpg images/83.jpg images/830.jpg images/831.jpg images/832.jpg images/833.jpg images/834.jpg images/835.jpg images/836.jpg images/837.jpg images/838.jpg images/839.jpg images/840.jpg images/841.jpg images/842.jpg images/843.jpg images/844.jpg images/845.jpg images/846.jpg images/847.jpg images/848.jpg images/849.jpg images/85.jpg images/850.jpg images/851.jpg images/852.jpg images/853.jpg images/854.jpg images/855.jpg images/856.jpg images/857.jpg images/858.jpg images/859.jpg images/86.jpg images/860.jpg images/861.jpg images/862.jpg images/863.jpg images/864.jpg images/865.jpg images/866.jpg images/867.jpg images/868.jpg images/869.jpg images/87.jpg images/870.jpg images/871.jpg images/872.jpg images/873.jpg images/874.jpg images/875.jpg images/876.jpg images/877.jpg images/878.jpg images/879.jpg images/88.jpg images/880.jpg images/881.jpg images/882.jpg images/883.jpg images/884.jpg images/885.jpg images/886.jpg images/887.jpg images/888.jpg images/889.jpg images/89.jpg images/890.jpg images/891.jpg images/892.jpg images/893.jpg images/894.jpg images/895.jpg images/896.jpg images/897.jpg images/898.jpg images/899.jpg images/9.jpg images/90.jpg images/900.jpg images/901.jpg images/902.jpg images/903.jpg images/904.jpg images/905.jpg images/906.jpg images/907.jpg images/908.jpg images/909.jpg images/91.jpg images/910.jpg images/911.jpg images/912.jpg images/913.jpg images/914.jpg images/915.jpg images/916.jpg images/917.jpg images/918.jpg images/919.jpg images/920.jpg images/921.jpg images/922.jpg images/923.jpg images/924.jpg images/925.jpg images/926.jpg images/927.jpg images/928.jpg images/929.jpg images/93.jpg images/930.jpg images/931.jpg images/932.jpg images/933.jpg images/934.jpg images/935.jpg images/936.jpg images/937.jpg images/938.jpg images/939.jpg images/94.jpg images/940.jpg images/941.jpg images/942.jpg images/943.jpg images/944.jpg images/945.jpg images/946.jpg images/947.jpg images/948.jpg images/949.jpg images/95.jpg images/950.jpg images/951.jpg images/952.jpg images/953.jpg images/954.jpg images/955.jpg images/956.jpg images/957.jpg images/958.jpg images/959.jpg images/96.jpg images/960.jpg images/961.jpg images/962.jpg images/963.jpg images/964.jpg images/965.jpg images/966.jpg images/967.jpg images/968.jpg images/969.jpg images/97.jpg images/970.jpg images/971.jpg images/972.jpg images/973.jpg images/974.jpg images/975.jpg images/976.jpg images/977.jpg images/978.jpg images/979.jpg images/98.jpg images/980.jpg images/981.jpg images/982.jpg images/983.jpg images/984.jpg images/985.jpg images/986.jpg images/987.jpg images/988.jpg images/989.jpg images/99.jpg images/990.jpg images/991.jpg images/992.jpg images/993.jpg images/994.jpg images/995.jpg images/996.jpg images/997.jpg images/998.jpg images/999.jpg
+images/1172.jpg
+16.91 racer
+8.10 grille
+6.84 soccer ball
+5.76 cab
+4.41 sports car
+images/1173.jpg
+18.07 web site
+10.93 tripod
+5.38 ski
+3.97 envelope
+3.63 wall clock
+images/1174.jpg
+73.04 hook
+6.60 nematode
+2.61 chain
+1.51 knot
+1.48 paintbrush
+images/1175.jpg
+87.30 soup bowl
+8.96 hot pot
+3.61 consomme
+0.09 caldron
+0.01 ladle
+images/1176.jpg
+87.58 web site
+2.69 container ship
+1.14 envelope
+1.03 book jacket
+0.69 rule
+images/1177.jpg
+51.18 grocery store
+13.13 stage
+7.37 confectionery
+4.23 cinema
+3.48 restaurant
+images/1178.jpg
+40.60 plate
+10.02 carbonara
+6.96 soup bowl
+6.02 consomme
+3.09 hot pot
+images/1179.jpg
+36.34 meat loaf
+33.02 plate
+8.77 broccoli
+7.56 hotdog
+2.55 mashed potato
+images/118.jpg
+22.77 pill bottle
+14.90 sunscreen
+13.59 web site
+5.48 lotion
+4.46 book jacket
+images/1180.jpg
+41.12 Loafer
+24.92 sandal
+13.93 holster
+9.87 shoe shop
+4.95 running shoe
+images/1181.jpg
+67.73 alp
+17.75 valley
+7.09 cliff
+3.37 promontory
+1.33 volcano
+images/1182.jpg
+20.92 castle
+18.34 church
+17.77 monastery
+11.19 palace
+6.96 bell cote
+images/1183.jpg
+24.61 jigsaw puzzle
+11.83 balloon
+6.65 toyshop
+5.51 confectionery
+5.27 container ship
+images/1184.jpg
+14.71 web site
+11.38 comic book
+10.56 book jacket
+7.54 envelope
+6.64 packet
+images/1185.jpg
+29.56 folding chair
+13.72 dining table
+9.78 desk
+7.53 restaurant
+3.87 grand piano
+images/1186.jpg
+21.45 hard disc
+7.83 reflex camera
+6.74 reel
+3.09 tripod
+2.61 stethoscope
+images/1187.jpg
+52.51 seat belt
+24.85 car mirror
+6.82 minivan
+3.49 minibus
+3.49 beach wagon
+images/1188.jpg
+19.29 aircraft carrier
+8.72 scuba diver
+6.31 stretcher
+5.80 military uniform
+3.77 assault rifle
+images/119.jpg
+62.82 seat belt
+10.97 car mirror
+5.96 sunglasses
+2.61 limousine
+1.75 minivan
+images/1190.jpg
+75.24 seat belt
+18.98 car mirror
+1.60 minivan
+0.62 binoculars
+0.31 limousine
+images/1191.jpg
+83.30 cinema
+7.88 theater curtain
+1.41 upright
+0.92 tile roof
+0.68 marimba
+images/1192.jpg
+7.91 stage
+5.83 book jacket
+5.02 comic book
+4.41 scuba diver
+2.64 ski
+images/1194.jpg
+6.13 theater curtain
+5.21 coil
+4.63 broom
+4.44 fountain
+4.42 rule
+images/1195.jpg
+7.06 church
+5.95 pinwheel
+5.16 umbrella
+5.09 altar
+4.63 balloon
+images/1196.jpg
+17.74 bell cote
+5.97 triumphal arch
+4.06 monastery
+3.73 castle
+3.56 lakeside
+images/1197.jpg
+16.47 palace
+11.43 paddlewheel
+4.63 airship
+4.50 boathouse
+2.89 library
+images/1198.jpg
+16.49 patio
+7.66 thatch
+7.44 prison
+5.27 lumbermill
+4.18 boathouse
+images/1199.jpg
+51.36 CD player
+15.45 odometer
+7.23 cassette player
+5.43 lens cap
+5.26 car mirror
+images/12.jpg
+32.58 consomme
+14.07 soup bowl
+12.76 hot pot
+6.42 Petri dish
+2.54 guacamole
+images/120.jpg
+97.33 jaguar
+2.11 leopard
+0.25 cheetah
+0.17 tiger
+0.04 tiger cat
+images/1200.jpg
+45.56 ski
+17.43 web site
+2.22 chain saw
+1.82 seashore
+1.54 swing
+images/1202.jpg
+44.33 laptop
+43.37 web site
+6.17 envelope
+1.67 notebook
+0.37 hand-held computer
+images/1203.jpg
+21.40 jigsaw puzzle
+11.43 scoreboard
+9.61 seashore
+9.46 container ship
+6.34 palace
+images/1204.jpg
+18.57 book jacket
+6.68 web site
+3.87 envelope
+2.32 jersey
+1.98 theater curtain
+images/1205.jpg
+20.08 envelope
+18.48 paintbrush
+17.79 syringe
+9.12 binder
+6.43 ballpoint
+images/1206.jpg
+88.90 meerkat
+11.03 mongoose
+0.01 fox squirrel
+0.01 Madagascar cat
+0.00 wallaby
+images/1207.jpg
+61.67 ox
+12.56 sorrel
+7.01 plow
+4.24 oxcart
+2.63 bison
+images/1208.jpg
+72.59 car mirror
+6.07 sunglasses
+5.83 sunglass
+1.83 bannister
+1.15 parking meter
+images/1209.jpg
+26.98 scoreboard
+13.87 radio
+10.68 slot
+10.37 monitor
+5.77 screen
+images/121.jpg
+87.61 cinema
+11.72 theater curtain
+0.33 home theater
+0.33 stage
+0.00 spotlight
+images/1210.jpg
+99.90 lorikeet
+0.07 macaw
+0.00 coucal
+0.00 toucan
+0.00 African grey
+images/1211.jpg
+50.14 valley
+48.75 alp
+0.38 lakeside
+0.29 cliff
+0.29 promontory
+images/1212.jpg
+49.72 iPod
+22.08 laptop
+7.24 notebook
+6.84 hard disc
+2.43 remote control
+images/1213.jpg
+55.97 analog clock
+21.49 wall clock
+5.82 sundial
+4.78 magnetic compass
+3.58 stopwatch
+images/1214.jpg
+12.87 grand piano
+11.46 groom
+8.38 barbershop
+6.51 stage
+5.31 bow tie
+images/1215.jpg
+36.37 toyshop
+16.46 teddy
+11.37 soap dispenser
+5.82 saltshaker
+5.65 espresso maker
+images/122.jpg
+81.75 Indian elephant
+16.86 tusker
+1.37 African elephant
+0.00 Weimaraner
+0.00 triceratops
+images/123.jpg
+65.14 Arctic fox
+10.56 Samoyed
+9.20 white wolf
+6.27 ice bear
+1.91 hare
+images/124.jpg
+77.48 seat belt
+2.84 car mirror
+1.37 minivan
+1.17 sunglasses
+0.72 limousine
+images/125.jpg
+10.93 spotlight
+9.97 theater curtain
+7.86 spider web
+3.28 analog clock
+2.90 projector
+images/126.jpg
+17.74 projector
+16.32 car mirror
+7.13 spotlight
+5.54 bubble
+4.36 odometer
+images/127.jpg
+8.95 mouse
+6.26 projector
+6.14 lighter
+3.45 quill
+2.99 candle
+images/128.jpg
+21.09 hog
+5.53 axolotl
+4.11 armadillo
+3.06 dugong
+1.93 warthog
+images/129.jpg
+66.74 sea lion
+12.96 killer whale
+10.34 great white shark
+3.29 hammerhead
+3.01 dugong
+images/13.jpg
+35.80 envelope
+14.49 jigsaw puzzle
+9.61 comic book
+7.06 tray
+5.02 laptop
+images/130.jpg
+40.07 bullet train
+10.89 boathouse
+6.73 passenger car
+6.55 streetcar
+4.60 trolleybus
+images/131.jpg
+88.98 tiger
+10.83 tiger cat
+0.08 jaguar
+0.04 zebra
+0.03 tabby
+images/132.jpg
+29.74 power drill
+15.25 football helmet
+9.35 mask
+8.69 sewing machine
+3.56 hand blower
+images/133.jpg
+10.76 palace
+9.94 fountain
+8.73 jigsaw puzzle
+8.25 seashore
+4.77 lakeside
+images/134.jpg
+68.13 web site
+10.55 scoreboard
+2.99 comic book
+1.68 menu
+1.37 envelope
+images/135.jpg
+24.12 lakeside
+17.67 seashore
+7.71 container ship
+6.47 breakwater
+4.88 promontory
+images/136.jpg
+32.22 palace
+19.31 lakeside
+17.58 castle
+5.37 seashore
+2.66 mosque
+images/137.jpg
+25.51 hook
+19.26 envelope
+14.89 rubber eraser
+10.01 Band Aid
+3.63 safety pin
+images/138.jpg
+46.41 minivan
+21.54 limousine
+16.89 beach wagon
+6.95 car wheel
+1.95 sports car
+images/139.jpg
+70.04 laptop
+23.97 notebook
+3.25 desk
+0.69 crossword puzzle
+0.28 mouse
+images/14.jpg
+94.96 military uniform
+4.22 bulletproof vest
+0.09 stretcher
+0.09 sleeping bag
+0.07 trench coat
+images/140.jpg
+24.94 steel arch bridge
+5.54 pier
+5.11 wing
+4.66 suspension bridge
+4.01 freight car
+images/141.jpg
+12.99 Crock Pot
+12.76 hot pot
+12.07 wok
+11.39 frying pan
+6.89 acorn squash
+images/142.jpg
+28.29 comic book
+12.97 book jacket
+3.66 buckle
+2.89 sandal
+1.81 web site
+images/143.jpg
+53.65 digital clock
+5.97 remote control
+4.60 stopwatch
+2.81 digital watch
+2.77 pug
+images/144.jpg
+32.70 racer
+7.95 cab
+4.20 sports car
+3.55 binoculars
+3.14 convertible
+images/145.jpg
+16.80 sunglasses
+16.27 suit
+6.17 sunglass
+4.70 jean
+3.28 Windsor tie
+images/146.jpg
+17.47 miniskirt
+16.79 balance beam
+14.03 maillot
+8.91 stage
+5.95 maillot
+images/147.jpg
+4.24 sunscreen
+2.16 oil filter
+1.64 coffee mug
+1.45 nipple
+1.41 punching bag
+images/148.jpg
+51.98 remote control
+6.83 cellular telephone
+3.48 dial telephone
+2.26 espresso maker
+2.15 soap dispenser
+images/149.jpg
+45.79 crash helmet
+6.30 shield
+5.54 knee pad
+4.95 mask
+4.45 holster
+images/15.jpg
+38.67 cowboy boot
+20.85 Loafer
+14.38 miniskirt
+5.60 sock
+4.99 clog
+images/150.jpg
+51.26 Band Aid
+5.83 web site
+4.46 sunscreen
+2.79 hair spray
+1.94 pill bottle
+images/151.jpg
+59.97 church
+7.09 palace
+5.92 airship
+3.09 castle
+2.79 cinema
+images/152.jpg
+27.51 book jacket
+5.95 revolver
+4.54 web site
+3.96 cash machine
+3.59 rifle
+images/153.jpg
+56.72 car mirror
+17.20 cab
+2.98 pickup
+1.89 convertible
+1.85 seat belt
+images/154.jpg
+70.27 military uniform
+29.71 bulletproof vest
+0.01 assault rifle
+0.01 trench coat
+0.00 rifle
+images/155.jpg
+31.65 joystick
+7.30 mouse
+6.32 crash helmet
+5.33 vacuum
+3.77 iron
+images/156.jpg
+39.49 soap dispenser
+3.90 toilet seat
+3.63 remote control
+2.75 nipple
+2.51 rubber eraser
+images/157.jpg
+19.25 mixing bowl
+18.54 orange
+8.77 lemon
+5.11 strainer
+4.76 dough
+images/158.jpg
+45.17 comic book
+25.70 book jacket
+5.94 jersey
+3.76 bib
+2.97 brassiere
+images/159.jpg
+42.70 plate
+19.51 restaurant
+10.25 tray
+3.07 microwave
+2.82 apron
+images/16.jpg
+47.70 balance beam
+25.47 racket
+11.86 volleyball
+3.02 horizontal bar
+1.30 miniskirt
+images/160.jpg
+88.75 airliner
+8.93 wing
+2.26 warplane
+0.03 airship
+0.01 space shuttle
+images/161.jpg
+9.61 hook
+8.77 chain
+6.44 reel
+6.04 necklace
+5.05 pencil sharpener
+images/162.jpg
+42.82 volleyball
+18.05 racket
+7.71 jean
+5.72 basketball
+3.93 sweatshirt
+images/163.jpg
+68.78 missile
+31.12 projectile
+0.10 space shuttle
+0.00 drilling platform
+0.00 cannon
+images/164.jpg
+38.52 pirate
+16.93 schooner
+3.74 fireboat
+3.32 pole
+3.04 dock
+images/165.jpg
+43.46 miniskirt
+16.30 knee pad
+13.07 cowboy boot
+6.79 clog
+5.32 sandal
+images/166.jpg
+61.32 comic book
+29.99 book jacket
+6.32 military uniform
+0.43 ballplayer
+0.30 rifle
+images/167.jpg
+20.75 comic book
+7.73 scoreboard
+4.31 street sign
+2.53 oil filter
+2.37 neck brace
+images/168.jpg
+27.80 web site
+10.22 comic book
+6.10 packet
+5.01 jersey
+4.71 book jacket
+images/169.jpg
+13.68 motor scooter
+9.00 cowboy boot
+6.54 water bottle
+5.58 tricycle
+4.65 beaker
+images/17.jpg
+22.83 cab
+11.67 traffic light
+9.64 bookshop
+4.53 tobacco shop
+3.88 cinema
+images/171.jpg
+51.62 menu
+9.41 envelope
+7.32 jigsaw puzzle
+7.31 book jacket
+3.31 binder
+images/172.jpg
+28.60 meerkat
+24.97 polecat
+18.18 mongoose
+12.10 weasel
+4.45 Chihuahua
+images/173.jpg
+99.99 llama
+0.01 wallaby
+0.00 kelpie
+0.00 Siamese cat
+0.00 malinois
+images/174.jpg
+14.51 wing
+5.37 airliner
+3.90 web site
+2.33 ski
+2.24 umbrella
+images/175.jpg
+12.50 bannister
+8.38 cinema
+7.56 breakwater
+6.51 stage
+5.43 theater curtain
+images/176.jpg
+7.59 maillot
+5.67 maillot
+4.25 gown
+3.84 sunglass
+3.77 brassiere
+images/177.jpg
+46.62 handkerchief
+18.61 tray
+10.36 binder
+5.96 envelope
+2.87 wallet
+images/178.jpg
+94.61 menu
+2.49 pizza
+1.90 plate
+0.17 potpie
+0.09 corn
+images/179.jpg
+38.15 plate
+6.91 hen-of-the-woods
+5.01 pretzel
+4.84 pizza
+4.19 gyromitra
+images/18.jpg
+54.24 suspension bridge
+13.71 crane
+4.25 solar dish
+4.04 lumbermill
+2.47 tow truck
+images/180.jpg
+70.99 comic book
+25.50 book jacket
+0.79 military uniform
+0.35 rifle
+0.25 bulletproof vest
+images/181.jpg
+29.36 miniskirt
+16.29 trench coat
+4.49 jean
+4.02 crutch
+3.99 military uniform
+images/183.jpg
+20.80 comic book
+13.28 toyshop
+4.36 jigsaw puzzle
+1.92 bucket
+1.86 motor scooter
+images/184.jpg
+27.72 dome
+17.50 mosque
+5.71 planetarium
+4.05 sewing machine
+2.63 recreational vehicle
+images/186.jpg
+39.20 comic book
+16.54 web site
+10.39 jigsaw puzzle
+9.27 envelope
+8.42 book jacket
+images/187.jpg
+19.75 jigsaw puzzle
+14.33 envelope
+10.21 pinwheel
+8.31 web site
+6.21 comic book
+images/189.jpg
+84.63 book jacket
+6.75 brass
+3.14 military uniform
+0.97 rifle
+0.69 street sign
+images/19.jpg
+73.55 rapeseed
+10.16 lakeside
+5.42 seashore
+2.24 valley
+1.23 alp
+images/190.jpg
+37.21 jigsaw puzzle
+11.61 bottlecap
+11.31 shield
+5.66 wall clock
+2.01 ocarina
+images/191.jpg
+12.63 hook
+8.65 envelope
+5.70 wall clock
+4.21 ping-pong ball
+3.54 pill bottle
+images/192.jpg
+14.02 mask
+7.35 bathing cap
+6.71 jersey
+3.78 ski mask
+2.54 microphone
+images/193.jpg
+17.04 comic book
+15.00 book jacket
+8.70 street sign
+8.08 barbershop
+2.40 web site
+images/194.jpg
+24.27 comic book
+22.60 shield
+11.30 book jacket
+10.47 street sign
+2.44 scoreboard
+images/195.jpg
+90.27 Band Aid
+2.74 envelope
+2.41 rubber eraser
+0.37 ice lolly
+0.29 spatula
+images/196.jpg
+95.10 basketball
+2.66 volleyball
+2.04 rugby ball
+0.07 soccer ball
+0.05 ping-pong ball
+images/197.jpg
+98.90 military uniform
+0.98 bulletproof vest
+0.03 trench coat
+0.02 pajama
+0.02 assault rifle
+images/198.jpg
+97.94 bannister
+0.22 coil
+0.09 football helmet
+0.06 parallel bars
+0.06 stupa
+images/199.jpg
+60.77 trailer truck
+25.83 moving van
+4.05 garbage truck
+2.38 recreational vehicle
+0.87 mobile home
+images/2.jpg
+34.32 knee pad
+10.35 coffeepot
+9.49 espresso maker
+8.14 tripod
+7.15 holster
+images/20.jpg
+51.82 envelope
+10.03 laptop
+9.13 binder
+2.50 menu
+1.80 refrigerator
+images/200.jpg
+30.31 alp
+29.71 volcano
+18.62 lakeside
+10.39 valley
+5.83 seashore
+images/201.jpg
+85.69 hamster
+7.72 guinea pig
+3.02 Angora
+1.41 wood rabbit
+0.42 hare
+images/202.jpg
+83.33 giant panda
+14.36 lesser panda
+0.76 gibbon
+0.75 indri
+0.17 polecat
+images/203.jpg
+100.00 military uniform
+0.00 bulletproof vest
+0.00 pajama
+0.00 rifle
+0.00 assault rifle
+images/204.jpg
+53.14 studio couch
+14.18 home theater
+4.67 cinema
+4.08 stretcher
+1.58 marimba
+images/205.jpg
+95.60 bathing cap
+1.42 bikini
+0.64 basketball
+0.48 maillot
+0.43 swimming trunks
+images/206.jpg
+40.84 boxer
+24.93 French bulldog
+6.97 Staffordshire bullterrier
+6.51 beagle
+4.64 Boston bull
+images/207.jpg
+19.63 stage
+18.86 basketball
+5.09 volleyball
+3.80 balance beam
+3.69 ballplayer
+images/208.jpg
+36.27 cowboy boot
+21.40 sock
+17.21 clog
+8.74 Loafer
+5.03 jean
+images/209.jpg
+30.82 frying pan
+18.03 spatula
+7.26 waffle iron
+6.90 tray
+3.69 pizza
+images/21.jpg
+9.37 ski mask
+7.84 parking meter
+6.80 CD player
+6.70 digital watch
+4.54 stopwatch
+images/210.jpg
+32.47 power drill
+26.27 neck brace
+3.23 disk brake
+2.75 chain saw
+2.18 spotlight
+images/211.jpg
+21.10 puck
+7.59 web site
+6.87 face powder
+6.85 pick
+6.61 ping-pong ball
+images/212.jpg
+39.23 lakeside
+5.87 pier
+5.64 boathouse
+4.89 paddlewheel
+2.64 seashore
+images/213.jpg
+98.03 web site
+0.88 notebook
+0.34 laptop
+0.13 screen
+0.08 monitor
+images/214.jpg
+80.23 book jacket
+17.92 street sign
+0.30 tobacco shop
+0.26 comic book
+0.18 packet
+images/215.jpg
+8.73 web site
+7.56 bathing cap
+7.34 plate rack
+5.52 puck
+5.41 balloon
+images/216.jpg
+35.89 cinema
+23.62 street sign
+10.27 flagpole
+6.42 bakery
+3.27 planetarium
+images/218.jpg
+33.58 submarine
+27.69 aircraft carrier
+13.61 dock
+2.97 container ship
+2.24 freight car
+images/22.jpg
+75.79 comic book
+21.96 book jacket
+0.24 jigsaw puzzle
+0.19 mask
+0.14 jersey
+images/220.jpg
+81.12 soccer ball
+8.62 volleyball
+3.64 basketball
+3.26 rugby ball
+1.79 punching bag
+images/221.jpg
+77.02 cinema
+16.82 stage
+2.67 theater curtain
+0.75 restaurant
+0.73 marimba
+images/222.jpg
+23.64 barn
+17.29 water tower
+10.54 pole
+5.79 flagpole
+3.60 planetarium
+images/223.jpg
+31.30 web site
+5.83 book jacket
+5.22 Band Aid
+3.97 comic book
+2.09 menu
+images/224.jpg
+10.46 garbage truck
+8.59 mobile home
+7.33 aircraft carrier
+4.57 container ship
+4.16 crate
+images/225.jpg
+13.05 combination lock
+11.96 carpenter's kit
+8.63 screwdriver
+8.27 corkscrew
+6.41 hammer
+images/226.jpg
+76.73 mask
+9.06 ski mask
+1.21 isopod
+1.14 football helmet
+0.85 leaf beetle
+images/227.jpg
+76.11 miniskirt
+8.00 trench coat
+6.48 sunglass
+4.10 sunglasses
+2.88 fur coat
+images/228.jpg
+40.29 book jacket
+24.86 rifle
+11.17 comic book
+5.67 web site
+5.21 barbershop
+images/229.jpg
+43.06 carton
+33.22 envelope
+6.35 umbrella
+4.60 lampshade
+2.83 plastic bag
+images/23.jpg
+25.38 washbasin
+8.27 screw
+7.63 radiator
+6.70 switch
+6.67 can opener
+images/230.jpg
+62.08 wooden spoon
+5.67 ladle
+4.52 coffeepot
+4.32 spatula
+3.64 mortar
+images/231.jpg
+79.71 honeycomb
+5.06 hen-of-the-woods
+2.68 coral reef
+2.19 coral fungus
+1.68 poncho
+images/232.jpg
+27.00 microphone
+4.80 drum
+2.74 bow
+2.73 stage
+2.51 balance beam
+images/233.jpg
+49.98 red wolf
+38.43 coyote
+4.29 timber wolf
+4.10 dingo
+1.16 dhole
+images/234.jpg
+79.15 wok
+7.83 frying pan
+3.13 hot pot
+2.13 soup bowl
+1.46 carbonara
+images/235.jpg
+57.44 alp
+17.45 valley
+13.82 cliff
+9.14 promontory
+0.62 volcano
+images/236.jpg
+41.14 military uniform
+23.60 pickelhaube
+7.41 cuirass
+3.63 shield
+3.41 bulletproof vest
+images/237.jpg
+27.07 burrito
+15.92 plate
+15.51 packet
+4.73 bagel
+2.85 tray
+images/238.jpg
+16.20 miniskirt
+11.88 bikini
+8.30 maillot
+8.00 maillot
+3.41 gown
+images/239.jpg
+59.95 web site
+6.95 seashore
+5.16 lakeside
+1.41 liner
+1.29 pier
+images/24.jpg
+58.28 wooden spoon
+12.02 mortar
+9.65 broccoli
+9.14 soup bowl
+2.58 wok
+images/240.jpg
+95.95 theater curtain
+4.03 cinema
+0.01 restaurant
+0.01 bakery
+0.00 throne
+images/241.jpg
+5.72 envelope
+4.67 necklace
+3.93 handkerchief
+2.82 velvet
+2.81 comic book
+images/242.jpg
+99.85 Arabian camel
+0.05 gazelle
+0.04 impala
+0.01 bighorn
+0.01 hartebeest
+images/243.jpg
+53.86 envelope
+5.97 web site
+4.64 laptop
+2.03 menu
+1.64 packet
+images/244.jpg
+40.27 coral reef
+7.70 scuba diver
+6.48 book jacket
+5.59 jigsaw puzzle
+3.01 tiger shark
+images/245.jpg
+47.30 theater curtain
+19.58 palace
+9.89 monastery
+8.63 vault
+6.33 cinema
+images/246.jpg
+89.92 rugby ball
+3.91 football helmet
+2.34 ballplayer
+1.60 baseball
+0.73 soccer ball
+images/247.jpg
+56.17 Dutch oven
+25.24 frying pan
+8.33 wok
+5.43 caldron
+1.20 pizza
+images/248.jpg
+66.60 comic book
+11.15 envelope
+10.90 jigsaw puzzle
+3.14 handkerchief
+2.60 book jacket
+images/249.jpg
+33.98 joystick
+5.67 CD player
+4.96 crash helmet
+4.10 tape player
+3.99 cassette player
+images/25.jpg
+99.01 military uniform
+0.18 bearskin
+0.14 panpipe
+0.08 suit
+0.07 groom
+images/250.jpg
+2.99 tank
+2.63 lumbermill
+2.52 tractor
+2.10 jeep
+1.58 amphibian
+images/252.jpg
+30.07 book jacket
+4.47 comic book
+3.86 street sign
+2.92 web site
+1.78 doormat
+images/253.jpg
+78.25 web site
+6.15 crossword puzzle
+2.72 menu
+2.24 comic book
+1.83 envelope
+images/254.jpg
+28.53 comic book
+15.38 syringe
+7.94 book jacket
+5.97 web site
+3.09 rifle
+images/255.jpg
+32.37 sunglasses
+18.34 sunglass
+11.66 miniskirt
+5.77 trench coat
+4.30 fur coat
+images/256.jpg
+38.27 suit
+10.48 miniskirt
+8.86 trench coat
+8.36 fur coat
+7.82 Loafer
+images/257.jpg
+99.39 web site
+0.12 remote control
+0.05 oscilloscope
+0.03 envelope
+0.02 menu
+images/258.jpg
+17.85 web site
+8.44 toyshop
+6.97 packet
+6.32 tray
+4.53 vending machine
+images/259.jpg
+31.03 vacuum
+28.69 lawn mower
+13.52 chain saw
+8.98 motor scooter
+2.09 snowmobile
+images/26.jpg
+17.23 sewing machine
+14.74 soap dispenser
+5.18 hand blower
+3.99 toyshop
+3.54 toilet seat
+images/260.jpg
+30.11 go-kart
+11.82 barbell
+10.72 racer
+6.13 dumbbell
+4.09 puck
+images/261.jpg
+60.66 lakeside
+38.25 boathouse
+0.30 fountain
+0.24 castle
+0.14 valley
+images/262.jpg
+20.37 pretzel
+15.17 wok
+9.89 frying pan
+8.76 plate
+5.76 corn
+images/263.jpg
+92.91 dough
+1.47 jigsaw puzzle
+0.91 apron
+0.78 tray
+0.67 bakery
+images/264.jpg
+15.09 pitcher
+13.26 nematode
+10.78 hook
+8.42 teapot
+6.73 coil
+images/265.jpg
+27.45 teapot
+17.22 teddy
+7.77 coffeepot
+5.29 saltshaker
+4.67 coffee mug
+images/266.jpg
+74.87 soccer ball
+18.10 volleyball
+3.30 rugby ball
+0.92 croquet ball
+0.54 football helmet
+images/267.jpg
+76.42 plate
+18.51 restaurant
+1.47 soup bowl
+1.13 guacamole
+0.56 candle
+images/268.jpg
+99.58 lion
+0.19 chow
+0.03 collie
+0.02 cheetah
+0.01 dhole
+images/269.jpg
+91.79 tiger
+7.98 tiger cat
+0.13 jaguar
+0.04 tabby
+0.01 leopard
+images/27.jpg
+38.35 stupa
+16.48 palace
+11.91 throne
+11.15 bell cote
+7.03 altar
+images/270.jpg
+68.64 monastery
+23.44 palace
+2.47 tile roof
+1.14 church
+0.97 castle
+images/271.jpg
+7.65 barber chair
+7.44 espresso maker
+6.38 vacuum
+5.71 Polaroid camera
+4.79 knee pad
+images/272.jpg
+42.65 solar dish
+10.50 crane
+4.61 drilling platform
+3.29 beacon
+3.04 spotlight
+images/273.jpg
+19.98 parachute
+17.88 balloon
+14.36 fountain
+3.36 vault
+2.72 planetarium
+images/274.jpg
+7.28 knee pad
+3.76 can opener
+2.90 vacuum
+2.60 motor scooter
+2.30 teddy
+images/275.jpg
+17.91 stole
+7.30 jean
+5.91 pajama
+5.68 Loafer
+5.09 miniskirt
+images/276.jpg
+18.32 plate
+7.37 acorn squash
+6.89 conch
+6.86 banana
+6.05 bagel
+images/277.jpg
+21.21 street sign
+12.96 web site
+7.35 Band Aid
+3.38 laptop
+3.13 mousetrap
+images/278.jpg
+39.00 wooden spoon
+34.95 wok
+17.42 ladle
+2.54 frying pan
+1.84 soup bowl
+images/279.jpg
+13.70 French loaf
+12.29 potpie
+11.69 bakery
+8.93 acorn squash
+7.63 burrito
+images/28.jpg
+66.14 cowboy boot
+16.13 running shoe
+6.63 shoe shop
+4.66 clog
+4.07 Loafer
+images/280.jpg
+16.86 gown
+13.56 horizontal bar
+9.29 balance beam
+4.07 parallel bars
+3.02 pajama
+images/281.jpg
+97.79 web site
+0.25 comic book
+0.09 tub
+0.08 cellular telephone
+0.08 wig
+images/282.jpg
+58.70 stage
+21.86 theater curtain
+4.75 home theater
+2.06 cinema
+1.97 spotlight
+images/283.jpg
+25.07 cellular telephone
+18.13 tape player
+16.64 CD player
+14.41 cassette player
+9.33 hand-held computer
+images/284.jpg
+20.36 scuba diver
+13.76 snorkel
+10.78 stage
+9.86 microphone
+5.22 spotlight
+images/285.jpg
+13.36 dock
+13.23 seashore
+5.42 cab
+5.04 lakeside
+5.00 pier
+images/286.jpg
+36.05 stage
+26.38 cinema
+13.15 planetarium
+8.58 liner
+1.90 theater curtain
+images/287.jpg
+29.78 wall clock
+10.52 safety pin
+3.87 ski mask
+3.55 nail
+3.40 mask
+images/288.jpg
+34.97 barber chair
+14.97 can opener
+14.48 espresso maker
+8.78 power drill
+2.63 vacuum
+images/289.jpg
+33.61 electric fan
+6.83 sewing machine
+6.53 cowboy hat
+6.29 toilet seat
+2.42 spotlight
+images/29.jpg
+73.91 minibus
+17.68 limousine
+2.46 minivan
+1.90 seat belt
+1.67 recreational vehicle
+images/290.jpg
+62.23 basketball
+32.22 volleyball
+3.82 rugby ball
+0.42 soccer ball
+0.16 balance beam
+images/291.jpg
+51.20 volcano
+11.36 alp
+7.44 Arabian camel
+3.84 cliff
+2.25 tripod
+images/292.jpg
+88.00 web site
+8.87 menu
+0.35 envelope
+0.24 jigsaw puzzle
+0.18 crossword puzzle
+images/293.jpg
+86.26 palace
+8.29 cinema
+1.43 monastery
+0.52 church
+0.35 stupa
+images/294.jpg
+23.01 lakeside
+12.04 sandbar
+6.74 beacon
+6.06 breakwater
+4.41 seashore
+images/295.jpg
+36.74 bell cote
+15.89 stupa
+6.78 triumphal arch
+6.38 sarong
+2.34 miniskirt
+images/296.jpg
+23.01 toyshop
+9.33 confectionery
+7.92 jinrikisha
+6.38 comic book
+6.33 grocery store
+images/297.jpg
+79.17 jigsaw puzzle
+18.57 web site
+0.68 envelope
+0.34 comic book
+0.09 rubber eraser
+images/298.jpg
+24.46 tile roof
+9.20 bell cote
+5.72 solar dish
+4.47 monastery
+4.22 alp
+images/299.jpg
+66.91 cowboy hat
+1.84 sombrero
+1.33 cowboy boot
+1.09 ballplayer
+1.08 hoopskirt
+images/3.jpg
+25.43 comic book
+24.48 jigsaw puzzle
+14.86 altar
+5.92 tray
+3.26 envelope
+images/30.jpg
+97.02 mountain tent
+0.96 sandbar
+0.86 umbrella
+0.40 parachute
+0.30 seashore
+images/300.jpg
+19.24 notebook
+7.65 lab coat
+6.78 laptop
+5.42 desk
+5.40 library
+images/301.jpg
+18.46 church
+12.70 library
+9.40 bookshop
+8.21 palace
+7.33 restaurant
+images/302.jpg
+22.42 bulletproof vest
+11.59 gasmask
+5.29 military uniform
+3.78 binoculars
+2.41 jersey
+images/303.jpg
+25.26 palace
+25.06 church
+12.08 altar
+6.68 monastery
+5.06 throne
+images/304.jpg
+31.14 puck
+19.85 ski
+6.30 bulletproof vest
+5.84 neck brace
+5.30 comic book
+images/305.jpg
+16.90 pedestal
+16.21 fountain
+7.62 altar
+6.32 stupa
+3.67 brass
+images/306.jpg
+29.03 ice bear
+13.81 brown bear
+10.54 timber wolf
+4.39 American black bear
+3.18 sea lion
+images/307.jpg
+75.62 ballplayer
+24.06 baseball
+0.21 football helmet
+0.09 rugby ball
+0.01 soccer ball
+images/308.jpg
+26.22 web site
+11.94 iPod
+7.69 hand-held computer
+6.58 remote control
+5.64 envelope
+images/309.jpg
+85.95 binoculars
+1.05 Arabian camel
+0.77 seashore
+0.66 sandbar
+0.54 geyser
+images/31.jpg
+56.98 wall clock
+2.49 analog clock
+1.57 jigsaw puzzle
+1.39 puck
+1.21 tray
+images/310.jpg
+96.03 comic book
+3.36 book jacket
+0.34 web site
+0.02 packet
+0.02 jersey
+images/311.jpg
+56.55 comic book
+31.96 book jacket
+4.69 menu
+3.54 web site
+1.17 packet
+images/312.jpg
+22.35 cash machine
+20.41 stage
+13.31 web site
+5.35 jean
+2.80 television
+images/313.jpg
+59.32 comic book
+8.44 book jacket
+6.97 web site
+1.51 mitten
+1.35 wig
+images/314.jpg
+55.59 comic book
+13.25 toyshop
+1.87 tricycle
+1.58 bicycle-built-for-two
+1.45 jigsaw puzzle
+images/315.jpg
+48.10 menu
+10.76 plate
+5.22 comic book
+3.06 pizza
+2.00 Dungeness crab
+images/316.jpg
+52.88 balance beam
+17.80 dumbbell
+4.53 pole
+3.53 maillot
+3.32 miniskirt
+images/317.jpg
+11.43 potter's wheel
+8.25 waffle iron
+6.12 mortar
+5.38 plate
+5.26 restaurant
+images/318.jpg
+20.60 jigsaw puzzle
+16.02 alp
+8.59 lakeside
+5.99 ant
+5.37 rapeseed
+images/319.jpg
+22.55 seashore
+17.24 lakeside
+6.67 castle
+4.70 beacon
+3.46 palace
+images/32.jpg
+38.08 balloon
+13.42 goblet
+9.28 washbasin
+6.56 water tower
+5.55 hourglass
+images/320.jpg
+23.56 comic book
+5.41 combination lock
+3.93 book jacket
+2.49 cassette
+2.48 padlock
+images/321.jpg
+10.97 oscilloscope
+10.25 beaker
+7.86 digital clock
+2.88 measuring cup
+2.77 book jacket
+images/322.jpg
+44.95 honeycomb
+14.88 chainlink fence
+2.06 golf ball
+1.72 strainer
+1.69 ping-pong ball
+images/323.jpg
+57.46 laptop
+29.30 notebook
+9.06 jigsaw puzzle
+2.72 desk
+0.37 crossword puzzle
+images/324.jpg
+25.54 toyshop
+4.90 motor scooter
+4.30 vacuum
+3.16 teddy
+3.07 vase
+images/325.jpg
+43.27 volcano
+32.60 geyser
+4.52 fountain
+3.80 wing
+3.71 spotlight
+images/326.jpg
+21.50 suspension bridge
+9.09 spider web
+8.17 pier
+7.12 stage
+6.32 scoreboard
+images/327.jpg
+53.20 ice cream
+25.27 bakery
+5.86 chocolate sauce
+4.93 bagel
+1.99 menu
+images/328.jpg
+85.59 dumbbell
+8.82 barbell
+1.44 punching bag
+1.25 racket
+0.85 volleyball
+images/329.jpg
+17.40 warplane
+16.10 wing
+11.23 airship
+5.48 aircraft carrier
+5.06 radio telescope
+images/33.jpg
+13.53 comic book
+11.37 book jacket
+7.68 jigsaw puzzle
+4.22 envelope
+4.17 bib
+images/330.jpg
+19.92 street sign
+17.70 envelope
+7.97 book jacket
+6.42 cash machine
+4.97 Band Aid
+images/331.jpg
+55.88 book jacket
+21.38 comic book
+5.42 web site
+2.77 Band Aid
+1.76 packet
+images/332.jpg
+13.68 barbershop
+12.27 street sign
+6.49 scoreboard
+4.71 tobacco shop
+2.56 prison
+images/333.jpg
+99.28 pier
+0.21 dock
+0.09 breakwater
+0.08 steel arch bridge
+0.06 bannister
+images/334.jpg
+95.78 lesser panda
+1.75 titi
+0.80 brown bear
+0.17 squirrel monkey
+0.16 howler monkey
+images/335.jpg
+45.70 book jacket
+15.48 comic book
+6.34 jersey
+5.08 coffee mug
+1.55 pick
+images/336.jpg
+12.11 printer
+10.00 espresso maker
+7.90 refrigerator
+7.88 cash machine
+6.32 safe
+images/337.jpg
+88.55 Pomeranian
+6.98 Chihuahua
+2.77 Pekinese
+0.44 Pembroke
+0.24 chow
+images/339.jpg
+56.99 photocopier
+17.12 printer
+15.34 scale
+2.17 microwave
+1.81 safe
+images/34.jpg
+99.85 basketball
+0.07 volleyball
+0.06 rugby ball
+0.01 soccer ball
+0.00 football helmet
+images/340.jpg
+99.72 pizza
+0.06 butcher shop
+0.05 French loaf
+0.05 potpie
+0.03 meat loaf
+images/341.jpg
+92.11 web site
+1.16 church
+0.68 menu
+0.62 comic book
+0.58 analog clock
+images/342.jpg
+51.05 castle
+12.99 bell cote
+6.27 church
+4.85 palace
+2.18 monastery
+images/343.jpg
+29.28 alp
+24.46 seashore
+10.78 lakeside
+10.71 cliff
+10.69 valley
+images/344.jpg
+82.91 oboe
+7.78 cornet
+7.04 bassoon
+0.94 sax
+0.64 flute
+images/345.jpg
+40.76 bakery
+22.91 menu
+8.57 plate
+5.29 corn
+2.57 bagel
+images/346.jpg
+99.50 lesser panda
+0.08 polecat
+0.06 Blenheim spaniel
+0.02 red fox
+0.02 weasel
+images/347.jpg
+99.99 theater curtain
+0.01 cinema
+0.00 stage
+0.00 throne
+0.00 altar
+images/348.jpg
+10.05 vacuum
+7.57 espresso maker
+6.33 syringe
+4.46 cup
+4.18 gasmask
+images/349.jpg
+45.08 CD player
+15.51 tape player
+10.55 potter's wheel
+9.33 cassette player
+3.74 loudspeaker
+images/35.jpg
+43.32 wallaby
+8.12 impala
+6.39 coyote
+5.63 German shepherd
+5.56 hare
+images/350.jpg
+37.37 crash helmet
+23.59 binoculars
+6.86 tripod
+4.28 projector
+3.91 motor scooter
+images/351.jpg
+20.99 diaper
+8.24 stethoscope
+2.95 binoculars
+2.32 lab coat
+1.79 swimming trunks
+images/352.jpg
+18.27 velvet
+12.45 gown
+11.97 miniskirt
+9.61 sarong
+6.98 pajama
+images/353.jpg
+24.41 cliff
+23.49 fountain
+17.99 valley
+7.84 alp
+6.10 dam
+images/354.jpg
+27.19 web site
+17.71 comic book
+5.61 Band Aid
+2.14 envelope
+1.85 jigsaw puzzle
+images/355.jpg
+68.67 jellyfish
+7.25 stage
+4.84 hourglass
+3.01 bubble
+2.98 spotlight
+images/356.jpg
+69.39 web site
+8.89 monitor
+2.46 screen
+2.43 gasmask
+1.86 desktop computer
+images/357.jpg
+19.49 book jacket
+13.65 street sign
+9.04 Band Aid
+5.23 pop bottle
+2.49 bottlecap
+images/358.jpg
+28.50 book jacket
+9.09 web site
+4.87 perfume
+3.98 comic book
+3.02 nematode
+images/359.jpg
+65.41 street sign
+4.34 barbershop
+3.85 racer
+2.93 football helmet
+1.64 traffic light
+images/36.jpg
+21.70 restaurant
+20.63 wok
+9.32 caldron
+8.09 bakery
+5.30 hot pot
+images/360.jpg
+24.18 envelope
+18.94 magnetic compass
+16.58 analog clock
+9.10 stopwatch
+7.71 stethoscope
+images/361.jpg
+64.78 pickup
+16.91 limousine
+1.87 beach wagon
+1.36 tow truck
+1.06 grille
+images/362.jpg
+18.90 can opener
+17.72 iron
+10.98 letter opener
+5.45 ballpoint
+3.67 cocktail shaker
+images/363.jpg
+14.89 perfume
+5.25 thimble
+3.24 beaker
+3.19 syringe
+3.09 cocktail shaker
+images/364.jpg
+34.41 tape player
+30.75 cassette player
+18.93 radio
+3.47 oscilloscope
+2.42 CD player
+images/365.jpg
+10.32 radio
+8.44 desktop computer
+8.31 stage
+4.66 monitor
+4.40 desk
+images/366.jpg
+31.44 forklift
+21.73 guillotine
+7.73 crate
+5.92 television
+2.65 cassette
+images/367.jpg
+44.72 web site
+29.67 pick
+3.43 pinwheel
+2.50 wall clock
+2.45 puck
+images/368.jpg
+25.61 power drill
+16.38 punching bag
+5.65 bobsled
+4.54 rain barrel
+3.16 mailbox
+images/369.jpg
+99.95 puck
+0.03 ski
+0.01 ballplayer
+0.00 bobsled
+0.00 knee pad
+images/37.jpg
+37.84 gown
+9.07 sarong
+8.40 groom
+7.21 hoopskirt
+7.16 overskirt
+images/370.jpg
+34.37 envelope
+19.06 laptop
+5.01 web site
+3.26 jigsaw puzzle
+2.79 binder
+images/371.jpg
+29.07 seashore
+5.65 promontory
+5.39 palace
+4.20 wombat
+2.46 beaver
+images/372.jpg
+50.05 bikini
+28.75 maillot
+11.82 brassiere
+4.26 maillot
+1.50 miniskirt
+images/373.jpg
+23.25 menu
+18.16 packet
+6.35 web site
+5.48 book jacket
+4.57 oil filter
+images/374.jpg
+75.88 web site
+2.59 pill bottle
+2.46 packet
+2.10 hand-held computer
+2.01 book jacket
+images/375.jpg
+6.30 pier
+4.66 crane
+3.31 suspension bridge
+2.64 steel arch bridge
+2.47 pedestal
+images/376.jpg
+51.02 Dutch oven
+8.79 Crock Pot
+8.25 mixing bowl
+5.88 caldron
+4.70 wok
+images/377.jpg
+99.58 military uniform
+0.19 bulletproof vest
+0.06 rifle
+0.05 assault rifle
+0.04 pajama
+images/378.jpg
+11.69 toilet seat
+11.42 espresso maker
+9.68 soap dispenser
+7.24 coffeepot
+5.83 toyshop
+images/379.jpg
+53.80 ballplayer
+16.64 football helmet
+6.93 baseball
+3.90 knee pad
+1.91 crash helmet
+images/38.jpg
+55.65 cellular telephone
+20.03 iPod
+6.02 reflex camera
+4.46 hand-held computer
+4.32 stopwatch
+images/381.jpg
+99.82 zebra
+0.08 tiger
+0.02 tiger cat
+0.02 jaguar
+0.01 gazelle
+images/382.jpg
+94.61 web site
+0.35 balance beam
+0.26 spotlight
+0.24 book jacket
+0.23 television
+images/383.jpg
+8.37 web site
+4.86 pajama
+4.54 menu
+3.33 measuring cup
+2.83 waffle iron
+images/384.jpg
+24.08 street sign
+11.26 packet
+7.20 traffic light
+3.34 brass
+2.91 mailbox
+images/385.jpg
+19.09 maillot
+12.40 miniskirt
+10.24 dumbbell
+5.84 balance beam
+4.56 maillot
+images/386.jpg
+11.46 corkscrew
+8.69 sewing machine
+3.65 tripod
+3.52 electric fan
+3.28 football helmet
+images/387.jpg
+46.03 minivan
+22.72 beach wagon
+4.65 cab
+4.55 car wheel
+4.01 police van
+images/388.jpg
+67.79 airliner
+21.03 wing
+6.64 warplane
+2.12 parachute
+0.46 stretcher
+images/389.jpg
+41.98 fountain
+6.97 gown
+6.45 balance beam
+4.63 pedestal
+3.38 miniskirt
+images/39.jpg
+97.00 convertible
+1.01 beach wagon
+0.49 limousine
+0.43 car wheel
+0.41 sports car
+images/390.jpg
+5.91 lab coat
+5.14 web site
+3.60 hook
+3.46 street sign
+3.13 spotlight
+images/391.jpg
+25.91 military uniform
+8.85 park bench
+4.84 pickelhaube
+4.81 stretcher
+4.56 accordion
+images/392.jpg
+21.06 marimba
+3.60 microwave
+3.54 spatula
+3.49 lab coat
+3.39 abacus
+images/393.jpg
+80.20 barbell
+9.16 horizontal bar
+5.45 parallel bars
+2.65 volleyball
+1.67 dumbbell
+images/394.jpg
+17.94 theater curtain
+17.69 altar
+17.38 vault
+15.25 palace
+5.30 church
+images/395.jpg
+71.77 theater curtain
+17.43 cinema
+2.78 palace
+1.09 library
+0.95 stage
+images/396.jpg
+24.83 spotlight
+16.17 espresso maker
+5.51 water jug
+3.89 coffeepot
+2.82 bucket
+images/397.jpg
+58.74 violin
+13.53 harmonica
+6.02 flute
+5.45 rifle
+4.86 cello
+images/398.jpg
+88.32 street sign
+1.11 traffic light
+0.74 cinema
+0.44 bakery
+0.41 tobacco shop
+images/399.jpg
+12.79 soap dispenser
+10.61 measuring cup
+9.64 beaker
+9.21 water jug
+6.91 oil filter
+images/4.jpg
+55.20 beach wagon
+10.24 racer
+8.32 cab
+5.29 minivan
+5.06 sports car
+images/40.jpg
+58.82 seat belt
+10.77 car mirror
+6.02 oxygen mask
+3.64 gas pump
+2.10 odometer
+images/400.jpg
+28.59 gown
+8.86 pelican
+5.14 hoopskirt
+4.14 spoonbill
+4.03 albatross
+images/401.jpg
+34.02 pickelhaube
+21.94 military uniform
+3.26 crash helmet
+1.64 fountain
+1.39 umbrella
+images/402.jpg
+26.95 manhole cover
+17.79 comic book
+10.98 crossword puzzle
+8.11 prayer rug
+5.01 maze
+images/403.jpg
+51.50 solar dish
+6.90 cinema
+2.09 crane
+1.61 sundial
+1.59 maze
+images/404.jpg
+95.23 web site
+0.61 whistle
+0.56 remote control
+0.19 hand-held computer
+0.19 analog clock
+images/405.jpg
+61.30 mountain bike
+24.99 crash helmet
+8.58 bicycle-built-for-two
+0.57 knee pad
+0.56 moped
+images/406.jpg
+32.10 fireboat
+26.06 fountain
+10.86 pier
+3.61 steel arch bridge
+3.27 lakeside
+images/407.jpg
+46.05 web site
+16.08 monitor
+4.96 stage
+3.26 modem
+2.99 screen
+images/408.jpg
+20.00 plate
+14.33 bagel
+6.61 French loaf
+5.69 Dungeness crab
+4.25 acorn squash
+images/409.jpg
+94.06 lion
+1.53 cougar
+1.27 lynx
+1.21 leopard
+0.45 cheetah
+images/41.jpg
+44.71 alp
+9.19 valley
+2.42 hammerhead
+2.40 volcano
+2.08 cliff
+images/410.jpg
+21.87 knee pad
+17.03 Loafer
+13.85 sandal
+6.15 clog
+6.04 maillot
+images/411.jpg
+58.62 web site
+23.55 envelope
+5.56 menu
+1.56 jigsaw puzzle
+1.12 comic book
+images/412.jpg
+42.71 web site
+15.39 nematode
+2.50 vine snake
+1.56 menu
+1.37 book jacket
+images/413.jpg
+99.85 lesser panda
+0.07 polecat
+0.01 brown bear
+0.01 weasel
+0.00 giant panda
+images/414.jpg
+95.69 tennis ball
+4.18 racket
+0.05 basketball
+0.03 volleyball
+0.02 ping-pong ball
+images/415.jpg
+41.59 hand blower
+8.19 sewing machine
+7.65 power drill
+2.17 lotion
+2.10 iron
+images/416.jpg
+31.35 palace
+12.74 castle
+12.74 cliff
+8.09 seashore
+6.46 monastery
+images/417.jpg
+6.30 cinema
+5.92 palace
+5.71 monastery
+5.15 bell cote
+2.95 restaurant
+images/418.jpg
+95.56 volcano
+1.32 alp
+0.49 lakeside
+0.20 tile roof
+0.19 seashore
+images/419.jpg
+71.52 seat belt
+9.71 car mirror
+8.63 minibus
+4.51 limousine
+2.00 minivan
+images/42.jpg
+20.36 lampshade
+10.39 espresso maker
+7.77 table lamp
+6.80 coffeepot
+5.08 breastplate
+images/420.jpg
+97.10 wing
+2.17 warplane
+0.30 airliner
+0.18 projectile
+0.12 missile
+images/421.jpg
+89.07 fountain
+3.37 valley
+0.82 castle
+0.72 coral reef
+0.68 promontory
+images/422.jpg
+29.57 cinema
+8.07 restaurant
+7.15 stage
+5.52 tobacco shop
+4.34 lumbermill
+images/423.jpg
+96.07 theater curtain
+1.33 cinema
+0.41 palace
+0.41 organ
+0.21 upright
+images/424.jpg
+25.61 envelope
+6.95 binder
+4.46 web site
+2.14 street sign
+2.02 hook
+images/425.jpg
+7.65 Indian cobra
+4.66 rock python
+3.96 cliff
+3.64 valley
+3.15 panpipe
+images/426.jpg
+13.76 brass
+9.84 buckle
+4.71 typewriter keyboard
+4.38 manhole cover
+2.84 scoreboard
+images/427.jpg
+50.05 street sign
+8.07 envelope
+3.50 doormat
+3.29 iPod
+3.26 puck
+images/428.jpg
+14.41 bathing cap
+12.81 ashcan
+7.01 street sign
+5.62 racket
+4.85 canoe
+images/429.jpg
+55.95 warplane
+18.64 wing
+6.63 great white shark
+6.46 hammerhead
+2.54 airliner
+images/43.jpg
+95.22 jigsaw puzzle
+0.41 comic book
+0.28 sea slug
+0.26 web site
+0.20 envelope
+images/430.jpg
+64.53 horizontal bar
+16.20 balance beam
+6.20 parallel bars
+0.87 pole
+0.67 knee pad
+images/431.jpg
+98.47 seat belt
+0.43 minivan
+0.33 convertible
+0.08 limousine
+0.08 car mirror
+images/432.jpg
+49.11 frying pan
+17.01 spatula
+10.12 wok
+5.55 wooden spoon
+5.47 hot pot
+images/433.jpg
+30.83 stage
+23.85 basketball
+5.81 ballplayer
+4.97 comic book
+2.62 theater curtain
+images/434.jpg
+34.21 plate
+33.56 meat loaf
+3.86 mashed potato
+3.58 broccoli
+2.05 king crab
+images/435.jpg
+52.83 seat belt
+18.38 minivan
+12.31 car mirror
+4.85 limousine
+4.35 convertible
+images/436.jpg
+90.67 theater curtain
+7.87 cinema
+0.52 home theater
+0.27 grand piano
+0.22 palace
+images/437.jpg
+29.38 projector
+22.89 toaster
+13.43 sewing machine
+9.16 espresso maker
+2.82 soap dispenser
+images/438.jpg
+6.25 honeycomb
+4.77 face powder
+3.43 lipstick
+2.92 pencil sharpener
+2.64 lampshade
+images/439.jpg
+33.05 monitor
+19.34 screen
+19.13 desktop computer
+4.78 television
+3.06 desk
+images/44.jpg
+48.94 rugby ball
+28.63 basketball
+19.46 volleyball
+0.87 soccer ball
+0.70 knee pad
+images/440.jpg
+15.32 Persian cat
+9.38 Siamese cat
+7.41 Angora
+6.58 chambered nautilus
+5.43 mushroom
+images/441.jpg
+97.73 jaguar
+2.22 leopard
+0.04 cheetah
+0.00 tiger
+0.00 snow leopard
+images/442.jpg
+35.88 Band Aid
+6.60 web site
+5.65 packet
+3.28 carton
+3.11 book jacket
+images/443.jpg
+99.14 cinema
+0.35 bakery
+0.14 barbershop
+0.10 restaurant
+0.07 scoreboard
+images/444.jpg
+100.00 web site
+0.00 menu
+0.00 hand-held computer
+0.00 screen
+0.00 monitor
+images/445.jpg
+69.71 digital clock
+6.40 hook
+3.49 iPod
+1.48 wall clock
+0.98 switch
+images/446.jpg
+79.99 jigsaw puzzle
+17.88 comic book
+0.43 pick
+0.40 envelope
+0.29 pinwheel
+images/447.jpg
+26.30 tank
+16.50 mousetrap
+5.54 plow
+4.02 lumbermill
+3.92 submarine
+images/448.jpg
+47.31 warplane
+23.52 aircraft carrier
+20.21 wing
+3.28 projectile
+3.12 missile
+images/449.jpg
+20.16 assault rifle
+15.76 rifle
+6.37 power drill
+5.34 crash helmet
+3.84 crane
+images/45.jpg
+99.11 web site
+0.13 analog clock
+0.06 nematode
+0.05 menu
+0.04 street sign
+images/450.jpg
+92.54 web site
+2.23 envelope
+1.83 menu
+0.30 nematode
+0.24 jigsaw puzzle
+images/451.jpg
+54.34 menu
+29.57 comic book
+9.41 web site
+2.10 packet
+1.05 jigsaw puzzle
+images/452.jpg
+22.71 binoculars
+10.45 harmonica
+6.32 car mirror
+4.63 loupe
+2.36 whistle
+images/453.jpg
+16.29 car mirror
+12.37 sports car
+12.33 car wheel
+8.04 convertible
+7.76 minivan
+images/454.jpg
+38.57 desk
+7.90 mouse
+4.15 barbell
+3.23 library
+3.16 file
+images/455.jpg
+52.97 throne
+44.10 theater curtain
+0.98 altar
+0.89 palace
+0.19 four-poster
+images/456.jpg
+67.36 cinema
+8.99 scoreboard
+2.17 stage
+1.96 restaurant
+0.92 slot
+images/457.jpg
+21.46 CD player
+15.51 odometer
+10.93 car wheel
+6.59 racer
+3.35 sports car
+images/458.jpg
+48.11 sports car
+27.28 racer
+9.06 car wheel
+6.84 convertible
+3.14 grille
+images/46.jpg
+25.40 maraca
+17.66 soccer ball
+9.25 tennis ball
+6.91 comic book
+4.32 ping-pong ball
+images/460.jpg
+9.18 pole
+3.89 racket
+3.41 snorkel
+3.40 dumbbell
+2.91 hammer
+images/461.jpg
+43.51 sports car
+25.10 car wheel
+12.54 beach wagon
+5.50 convertible
+4.04 racer
+images/462.jpg
+32.06 miniskirt
+11.83 hoopskirt
+9.13 gown
+3.80 overskirt
+2.25 groom
+images/463.jpg
+39.06 syringe
+18.72 face powder
+9.45 Petri dish
+3.82 screwdriver
+3.04 loupe
+images/464.jpg
+58.94 cab
+3.71 traffic light
+3.60 limousine
+3.39 minivan
+2.99 tow truck
+images/465.jpg
+20.32 seashore
+11.94 aircraft carrier
+7.98 crane
+6.63 liner
+4.58 monitor
+images/466.jpg
+16.36 stretcher
+9.58 rifle
+4.92 cannon
+4.00 assault rifle
+2.61 barbell
+images/467.jpg
+30.36 crossword puzzle
+22.79 notebook
+10.84 binder
+7.13 desk
+6.80 slide rule
+images/468.jpg
+73.31 cowboy boot
+9.35 clog
+3.89 sandal
+3.10 sock
+3.09 Loafer
+images/469.jpg
+97.88 comic book
+0.64 book jacket
+0.57 jigsaw puzzle
+0.45 envelope
+0.12 web site
+images/47.jpg
+87.49 home theater
+10.70 theater curtain
+1.73 cinema
+0.03 entertainment center
+0.02 stage
+images/470.jpg
+41.33 balloon
+8.21 carousel
+7.67 abacus
+7.21 altar
+4.54 toyshop
+images/471.jpg
+16.89 plate
+9.43 ladle
+5.09 orange
+4.70 mixing bowl
+4.69 tray
+images/472.jpg
+27.35 alp
+15.58 volcano
+13.25 valley
+5.85 lakeside
+1.80 barn
+images/473.jpg
+78.13 racer
+20.38 sports car
+0.79 convertible
+0.29 warplane
+0.17 car wheel
+images/474.jpg
+67.15 sports car
+10.92 racer
+7.90 beach wagon
+5.61 convertible
+3.76 car wheel
+images/475.jpg
+48.99 fur coat
+19.19 stole
+7.03 cardigan
+6.16 sunglasses
+5.07 poncho
+images/476.jpg
+24.98 unicycle
+15.64 soccer ball
+13.84 basketball
+9.06 balance beam
+6.07 parachute
+images/477.jpg
+53.56 espresso maker
+4.55 tripod
+2.00 assault rifle
+1.70 washbasin
+1.40 joystick
+images/479.jpg
+41.46 suit
+14.55 Windsor tie
+7.61 notebook
+2.69 Loafer
+2.36 groom
+images/48.jpg
+25.99 Crock Pot
+21.18 Dutch oven
+5.91 frying pan
+3.01 candle
+2.83 grocery store
+images/480.jpg
+48.47 web site
+15.38 menu
+10.62 envelope
+2.55 rule
+2.22 slide rule
+images/481.jpg
+34.73 rubber eraser
+16.05 envelope
+6.31 pick
+5.97 packet
+3.68 safety pin
+images/482.jpg
+27.15 park bench
+12.61 stretcher
+11.25 chain saw
+3.54 hatchet
+2.07 cowboy boot
+images/483.jpg
+29.42 spider monkey
+11.72 hook
+5.05 pedestal
+4.43 unicycle
+4.37 crane
+images/484.jpg
+15.06 jean
+9.99 gown
+8.77 velvet
+6.00 mailbag
+5.11 plastic bag
+images/485.jpg
+37.50 wok
+23.52 frying pan
+8.59 spatula
+2.20 ladle
+1.76 wooden spoon
+images/486.jpg
+77.14 vacuum
+4.56 coffeepot
+2.54 water jug
+2.46 water bottle
+2.05 crash helmet
+images/487.jpg
+80.72 wok
+4.17 rotisserie
+3.97 frying pan
+2.98 lab coat
+2.35 cleaver
+images/488.jpg
+28.62 wall clock
+16.69 jigsaw puzzle
+5.80 hammer
+5.33 screw
+3.48 screwdriver
+images/489.jpg
+46.44 lakeside
+18.37 seashore
+9.26 sandbar
+4.35 boathouse
+3.21 wreck
+images/49.jpg
+53.79 ballplayer
+34.65 basketball
+4.55 puck
+0.83 football helmet
+0.52 baseball
+images/490.jpg
+33.80 vault
+32.21 dome
+16.62 church
+9.99 palace
+2.77 altar
+images/491.jpg
+20.10 plate
+9.07 cleaver
+6.13 corn
+4.88 cucumber
+4.46 burrito
+images/492.jpg
+97.93 lion
+0.58 chow
+0.33 cheetah
+0.17 Tibetan mastiff
+0.08 cougar
+images/493.jpg
+87.59 tiger
+11.74 tiger cat
+0.31 jaguar
+0.07 tabby
+0.06 zebra
+images/494.jpg
+10.58 liner
+10.15 pier
+6.45 dock
+5.34 seashore
+5.18 lakeside
+images/495.jpg
+10.48 palace
+9.16 fountain
+8.33 dome
+2.92 obelisk
+2.74 liner
+images/496.jpg
+12.83 car mirror
+7.45 consomme
+7.24 seat belt
+5.28 soup bowl
+4.71 Petri dish
+images/497.jpg
+85.66 military uniform
+2.18 sax
+1.68 diamondback
+1.59 hognose snake
+1.22 rock python
+images/498.jpg
+82.41 cuirass
+15.71 breastplate
+1.70 shield
+0.15 chain mail
+0.01 pickelhaube
+images/499.jpg
+80.53 book jacket
+17.67 comic book
+0.26 bookshop
+0.09 spider monkey
+0.09 baboon
+images/5.jpg
+14.62 liner
+12.28 drilling platform
+10.09 scoreboard
+8.94 pier
+7.43 dock
+images/500.jpg
+11.00 tobacco shop
+8.63 harmonica
+4.96 web site
+4.27 Band Aid
+3.14 packet
+images/501.jpg
+34.13 revolver
+12.19 lighter
+10.20 projector
+8.52 stage
+3.49 electric guitar
+images/502.jpg
+51.97 military uniform
+35.98 trench coat
+5.94 pickelhaube
+1.82 ballplayer
+1.79 bow tie
+images/503.jpg
+62.54 Loafer
+10.19 trench coat
+7.49 abaya
+4.80 miniskirt
+1.58 suit
+images/504.jpg
+54.35 sunglass
+45.49 sunglasses
+0.09 ski mask
+0.03 mask
+0.01 snorkel
+images/505.jpg
+17.67 running shoe
+14.31 Loafer
+13.39 sandal
+12.05 shoe shop
+9.72 holster
+images/506.jpg
+63.17 caldron
+34.57 hot pot
+1.90 Dutch oven
+0.21 wok
+0.05 consomme
+images/507.jpg
+99.92 web site
+0.04 comic book
+0.01 envelope
+0.01 menu
+0.00 book jacket
+images/508.jpg
+90.22 picket fence
+6.36 window shade
+1.11 worm fence
+0.49 pier
+0.20 suspension bridge
+images/509.jpg
+65.60 pizza
+6.37 pretzel
+5.96 potpie
+5.27 French loaf
+3.17 meat loaf
+images/51.jpg
+47.43 coral reef
+6.96 scuba diver
+4.65 puffer
+4.25 sea snake
+2.37 wreck
+images/510.jpg
+58.34 pizza
+9.81 chiton
+5.77 French loaf
+4.62 meat loaf
+3.95 hotdog
+images/511.jpg
+11.72 frying pan
+11.40 mixing bowl
+11.37 cup
+8.76 measuring cup
+7.83 wok
+images/512.jpg
+20.12 French loaf
+19.23 zucchini
+7.50 pizza
+7.43 butternut squash
+6.40 meat loaf
+images/513.jpg
+15.48 ice cream
+7.38 bakery
+6.62 jackfruit
+5.44 trifle
+4.72 pineapple
+images/514.jpg
+51.94 frying pan
+41.84 wok
+1.36 dough
+1.08 stove
+1.02 Dutch oven
+images/515.jpg
+59.79 candle
+4.77 potter's wheel
+4.22 dough
+2.48 plate
+2.04 eggnog
+images/516.jpg
+29.54 pajama
+4.62 apron
+4.08 bathtub
+3.16 maillot
+2.84 maillot
+images/517.jpg
+17.75 plate
+13.50 crossword puzzle
+10.77 menu
+9.85 soup bowl
+8.81 quill
+images/518.jpg
+92.12 seat belt
+3.83 car mirror
+0.62 limousine
+0.40 binoculars
+0.33 minibus
+images/519.jpg
+39.53 power drill
+15.57 forklift
+8.49 vacuum
+6.10 lawn mower
+2.30 desk
+images/52.jpg
+13.79 groom
+11.28 theater curtain
+10.68 stage
+7.68 balance beam
+5.44 restaurant
+images/520.jpg
+84.06 seat belt
+9.12 car mirror
+2.22 minibus
+0.88 minivan
+0.62 limousine
+images/521.jpg
+24.82 hot pot
+24.37 soup bowl
+16.47 wooden spoon
+8.26 Crock Pot
+6.13 ladle
+images/522.jpg
+25.23 folding chair
+16.90 rocking chair
+3.05 park bench
+1.74 ashcan
+1.33 cradle
+images/523.jpg
+15.35 maillot
+10.78 sarong
+10.28 maillot
+8.53 apron
+5.94 comic book
+images/524.jpg
+95.13 crane
+1.61 airship
+0.95 drilling platform
+0.33 solar dish
+0.23 dock
+images/525.jpg
+33.29 wok
+15.55 frying pan
+7.35 plate
+6.77 zucchini
+4.43 cleaver
+images/526.jpg
+57.98 chainlink fence
+7.71 book jacket
+4.97 packet
+4.77 computer keyboard
+1.18 bathing cap
+images/527.jpg
+16.14 turnstile
+11.75 tobacco shop
+7.79 cash machine
+5.75 vending machine
+5.66 gas pump
+images/528.jpg
+35.11 maillot
+19.87 cowboy hat
+10.06 maillot
+9.87 bikini
+3.32 sombrero
+images/529.jpg
+36.46 wok
+23.34 frying pan
+7.36 strainer
+6.20 Dutch oven
+6.16 stove
+images/53.jpg
+52.38 drumstick
+22.15 ladle
+8.36 wok
+4.09 drum
+3.98 wooden spoon
+images/530.jpg
+51.96 balance beam
+6.22 dumbbell
+4.25 horizontal bar
+3.08 racket
+2.91 volleyball
+images/531.jpg
+15.00 plastic bag
+10.47 parallel bars
+10.20 lab coat
+6.01 horizontal bar
+5.73 flagpole
+images/532.jpg
+8.94 ballplayer
+5.93 balance beam
+5.71 microphone
+4.19 parachute
+3.47 assault rifle
+images/533.jpg
+39.49 hoopskirt
+35.25 gown
+24.30 overskirt
+0.22 sarong
+0.19 groom
+images/534.jpg
+51.44 ping-pong ball
+27.51 web site
+4.38 face powder
+1.78 golf ball
+1.29 maraca
+images/535.jpg
+69.60 cuirass
+28.55 breastplate
+1.61 shield
+0.20 chain mail
+0.02 pickelhaube
+images/536.jpg
+28.00 theater curtain
+10.23 cinema
+7.03 vault
+6.76 palace
+5.51 throne
+images/537.jpg
+98.97 bubble
+0.17 fountain
+0.06 planetarium
+0.06 cornet
+0.05 balloon
+images/538.jpg
+99.03 digital clock
+0.76 digital watch
+0.16 scoreboard
+0.01 fire screen
+0.01 oscilloscope
+images/539.jpg
+99.66 baseball
+0.25 partridge
+0.08 ruffed grouse
+0.01 ballplayer
+0.00 quail
+images/54.jpg
+35.47 crash helmet
+6.83 knee pad
+4.02 football helmet
+3.18 electric fan
+2.35 spotlight
+images/540.jpg
+58.52 scoreboard
+16.99 basketball
+10.30 ballplayer
+8.70 racket
+1.17 volleyball
+images/541.jpg
+99.79 basketball
+0.11 volleyball
+0.06 ballplayer
+0.02 torch
+0.02 soccer ball
+images/542.jpg
+22.12 wallaby
+13.70 impala
+9.79 dingo
+8.13 malinois
+6.77 hartebeest
+images/543.jpg
+59.16 basset
+30.45 Cardigan
+2.65 beagle
+1.79 Pembroke
+1.31 bloodhound
+images/544.jpg
+89.49 golden retriever
+1.39 collie
+0.81 Leonberg
+0.59 Labrador retriever
+0.55 Newfoundland
+images/545.jpg
+36.21 web site
+11.19 book jacket
+8.14 beacon
+6.70 comic book
+2.96 street sign
+images/546.jpg
+54.58 car mirror
+15.20 seat belt
+5.66 sunglasses
+2.67 sunglass
+2.60 convertible
+images/547.jpg
+94.76 seat belt
+1.23 car mirror
+0.40 cellular telephone
+0.28 sunglasses
+0.21 gas pump
+images/548.jpg
+14.12 limousine
+13.34 minivan
+8.87 car mirror
+7.87 seat belt
+5.04 beach wagon
+images/549.jpg
+27.37 racer
+15.55 sports car
+5.51 convertible
+4.93 passenger car
+3.62 bobsled
+images/55.jpg
+43.64 web site
+19.14 magnetic compass
+4.18 stopwatch
+3.99 analog clock
+3.62 slot
+images/550.jpg
+74.72 seat belt
+12.75 car mirror
+5.63 limousine
+1.85 minivan
+0.72 minibus
+images/551.jpg
+34.94 minivan
+22.72 grille
+10.05 cab
+9.44 beach wagon
+4.21 sports car
+images/552.jpg
+20.39 tray
+7.99 crate
+3.22 custard apple
+2.60 dough
+2.47 dining table
+images/553.jpg
+25.61 comic book
+8.19 web site
+6.48 envelope
+3.01 packet
+2.67 book jacket
+images/555.jpg
+42.23 plate
+24.02 meat loaf
+7.71 chocolate sauce
+7.59 bakery
+4.04 ice cream
+images/556.jpg
+21.36 analog clock
+11.02 unicycle
+9.64 stopwatch
+7.61 stethoscope
+6.41 hook
+images/557.jpg
+16.61 digital clock
+14.27 book jacket
+5.90 web site
+3.85 analog clock
+3.54 street sign
+images/558.jpg
+10.30 toyshop
+8.48 mouse
+4.90 pinwheel
+3.34 punching bag
+3.19 pencil sharpener
+images/559.jpg
+47.84 fountain
+11.63 bubble
+4.35 planetarium
+4.22 space shuttle
+3.39 stage
+images/56.jpg
+34.04 book jacket
+12.26 coral reef
+6.62 web site
+4.27 packet
+4.13 cash machine
+images/560.jpg
+75.01 book jacket
+11.40 comic book
+1.49 street sign
+1.15 barbershop
+0.78 packet
+images/561.jpg
+96.84 military uniform
+1.16 bulletproof vest
+0.49 trench coat
+0.21 assault rifle
+0.17 pajama
+images/563.jpg
+27.12 envelope
+18.03 umbrella
+15.79 carton
+5.08 binder
+3.82 balloon
+images/564.jpg
+99.99 basketball
+0.00 volleyball
+0.00 punching bag
+0.00 horizontal bar
+0.00 parallel bars
+images/565.jpg
+94.45 web site
+2.19 menu
+0.37 jigsaw puzzle
+0.24 envelope
+0.21 coral reef
+images/566.jpg
+88.57 pinwheel
+4.93 jigsaw puzzle
+0.77 envelope
+0.28 comic book
+0.27 pencil box
+images/567.jpg
+3.09 hammer
+2.88 paintbrush
+2.30 screwdriver
+2.07 cleaver
+1.88 envelope
+images/568.jpg
+2.07 book jacket
+1.97 joystick
+1.88 web site
+1.62 digital clock
+1.54 stage
+images/569.jpg
+32.34 packet
+17.15 comic book
+4.85 Band Aid
+2.92 confectionery
+2.88 pretzel
+images/57.jpg
+89.96 web site
+2.36 book jacket
+1.21 menu
+1.19 envelope
+1.02 comic book
+images/570.jpg
+35.65 espresso maker
+10.78 coffeepot
+8.26 microphone
+7.33 soap dispenser
+5.44 tripod
+images/571.jpg
+25.44 cowboy boot
+24.27 running shoe
+19.86 Loafer
+6.99 sandal
+5.28 shoe shop
+images/572.jpg
+52.02 lakeside
+37.75 canoe
+6.59 boathouse
+1.49 paddle
+0.81 seashore
+images/573.jpg
+15.81 palace
+12.22 prison
+6.11 monastery
+4.03 boathouse
+3.98 patio
+images/574.jpg
+17.27 vacuum
+14.82 football helmet
+10.00 crash helmet
+5.81 can opener
+3.41 gasmask
+images/575.jpg
+21.33 tank
+13.16 military uniform
+11.05 assault rifle
+10.81 cannon
+10.62 disk brake
+images/576.jpg
+67.80 Border collie
+16.12 collie
+3.33 Bernese mountain dog
+2.68 Cardigan
+1.31 papillon
+images/577.jpg
+99.68 chimpanzee
+0.15 hippopotamus
+0.04 ox
+0.02 macaque
+0.02 Indian elephant
+images/578.jpg
+6.03 drum
+3.94 spotlight
+3.77 snowmobile
+3.35 ski
+3.34 alp
+images/579.jpg
+42.03 pinwheel
+6.46 jigsaw puzzle
+3.17 wall clock
+2.24 ski
+2.22 balloon
+images/58.jpg
+85.14 running shoe
+6.32 clog
+3.62 Loafer
+1.70 sandal
+1.59 cowboy boot
+images/580.jpg
+21.82 palace
+10.74 obelisk
+8.97 triumphal arch
+6.82 bell cote
+4.66 pedestal
+images/581.jpg
+41.38 palace
+7.72 prison
+4.34 library
+4.24 street sign
+3.98 cinema
+images/582.jpg
+60.74 airliner
+25.79 airship
+11.17 wing
+1.03 warplane
+0.65 space shuttle
+images/583.jpg
+68.90 shopping cart
+12.78 solar dish
+3.09 radio telescope
+1.94 shopping basket
+1.63 airship
+images/584.jpg
+37.30 aircraft carrier
+10.72 projectile
+8.93 submarine
+7.33 missile
+5.87 fireboat
+images/585.jpg
+41.54 torch
+24.36 fire engine
+20.93 crane
+4.11 tow truck
+1.07 drilling platform
+images/586.jpg
+65.30 cuirass
+25.09 breastplate
+3.98 shield
+1.77 pickelhaube
+0.95 chain mail
+images/587.jpg
+8.12 forklift
+2.63 stretcher
+2.59 rifle
+2.46 assault rifle
+2.09 neck brace
+images/588.jpg
+42.90 wok
+19.81 plate
+6.39 soup bowl
+4.11 hot pot
+3.95 frying pan
+images/589.jpg
+32.52 jean
+10.01 suit
+4.74 sunglasses
+4.15 miniskirt
+3.45 Loafer
+images/59.jpg
+99.69 theater curtain
+0.16 stage
+0.11 cinema
+0.01 organ
+0.01 home theater
+images/590.jpg
+20.18 toyshop
+12.32 cuirass
+10.78 knee pad
+8.35 teddy
+7.04 soap dispenser
+images/591.jpg
+31.05 gasmask
+29.24 crossword puzzle
+8.78 oxygen mask
+4.28 neck brace
+3.61 desk
+images/592.jpg
+7.26 stretcher
+6.17 park bench
+4.13 jigsaw puzzle
+3.89 book jacket
+3.60 loupe
+images/593.jpg
+82.19 water buffalo
+13.93 ox
+2.36 hartebeest
+0.35 oxcart
+0.35 warthog
+images/594.jpg
+26.75 cowboy hat
+15.77 military uniform
+8.86 pickelhaube
+7.18 bearskin
+2.83 ski
+images/595.jpg
+48.58 seashore
+18.00 valley
+10.61 alp
+6.44 lakeside
+5.28 sandbar
+images/596.jpg
+18.72 dhole
+16.41 Chihuahua
+12.91 coyote
+4.68 kit fox
+4.20 red fox
+images/597.jpg
+88.06 soccer ball
+5.58 baseball
+3.97 tennis ball
+0.85 volleyball
+0.60 croquet ball
+images/598.jpg
+37.21 CD player
+27.78 loudspeaker
+22.04 hard disc
+3.89 mouse
+3.26 iPod
+images/599.jpg
+59.37 alp
+20.78 valley
+3.37 lakeside
+3.27 volcano
+2.65 seashore
+images/6.jpg
+24.63 scoreboard
+7.02 jigsaw puzzle
+6.31 airship
+4.62 fountain
+4.46 crane
+images/60.jpg
+5.52 pole
+3.96 harvestman
+3.14 cliff
+2.92 nail
+2.91 bee eater
+images/600.jpg
+25.65 bassoon
+12.03 flute
+11.21 web site
+9.82 oboe
+3.89 drumstick
+images/601.jpg
+24.31 dome
+11.08 palace
+5.72 bell cote
+4.58 steel arch bridge
+3.72 mosque
+images/602.jpg
+86.15 cinema
+5.31 slot
+1.44 tobacco shop
+1.20 theater curtain
+0.83 web site
+images/603.jpg
+35.22 syringe
+27.51 oxygen mask
+13.47 screw
+3.47 oil filter
+3.17 perfume
+images/604.jpg
+89.69 upright
+8.87 grand piano
+0.18 barbershop
+0.13 barber chair
+0.12 accordion
+images/605.jpg
+8.39 hammer
+3.88 hook
+3.69 microphone
+3.04 remote control
+2.67 web site
+images/606.jpg
+23.84 spotlight
+17.40 projector
+16.98 switch
+6.13 reflex camera
+2.85 cellular telephone
+images/607.jpg
+12.98 hyena
+4.95 Chihuahua
+3.43 miniature pinscher
+3.31 African hunting dog
+3.20 wallaby
+images/609.jpg
+6.21 crash helmet
+5.72 military uniform
+4.00 jean
+2.85 park bench
+2.46 ballplayer
+images/61.jpg
+96.02 ice bear
+2.89 brown bear
+0.23 Labrador retriever
+0.11 golden retriever
+0.07 American black bear
+images/610.jpg
+99.85 cheetah
+0.05 leopard
+0.04 snow leopard
+0.02 jaguar
+0.02 lynx
+images/611.jpg
+56.93 castle
+17.14 palace
+12.06 church
+4.39 bell cote
+2.61 monastery
+images/612.jpg
+11.99 swing
+10.06 flagpole
+5.77 seashore
+4.90 pole
+3.73 street sign
+images/613.jpg
+14.52 binder
+13.02 Band Aid
+9.25 envelope
+8.27 sunscreen
+7.73 modem
+images/614.jpg
+97.07 revolver
+1.51 rifle
+0.97 holster
+0.39 assault rifle
+0.02 power drill
+images/615.jpg
+65.33 assault rifle
+22.38 rifle
+10.58 revolver
+1.52 holster
+0.05 bow
+images/616.jpg
+31.67 palace
+8.29 dock
+4.37 castle
+4.02 library
+2.71 seashore
+images/617.jpg
+87.30 castle
+8.33 palace
+1.88 monastery
+0.68 lakeside
+0.40 church
+images/618.jpg
+72.25 lakeside
+7.26 breakwater
+4.66 boathouse
+2.81 dam
+2.40 seashore
+images/619.jpg
+13.59 bakery
+11.90 meat loaf
+11.59 mushroom
+10.30 snail
+5.65 pretzel
+images/62.jpg
+55.54 African elephant
+44.08 tusker
+0.37 Indian elephant
+0.00 triceratops
+0.00 armadillo
+images/620.jpg
+56.48 plate
+10.40 American lobster
+5.62 burrito
+5.54 mashed potato
+3.85 meat loaf
+images/621.jpg
+7.54 envelope
+5.16 toyshop
+3.99 teddy
+2.35 balloon
+2.12 jersey
+images/622.jpg
+43.31 web site
+23.36 television
+9.75 monitor
+6.93 home theater
+5.23 screen
+images/623.jpg
+21.81 Band Aid
+20.37 digital clock
+7.09 hook
+4.99 switch
+4.97 rubber eraser
+images/624.jpg
+15.13 aircraft carrier
+10.12 submarine
+6.06 liner
+3.99 amphibian
+3.99 dock
+images/625.jpg
+80.25 football helmet
+6.04 puck
+5.49 comic book
+4.33 ballplayer
+0.92 basketball
+images/626.jpg
+68.45 lakeside
+7.67 seashore
+4.03 sandbar
+2.40 promontory
+2.37 umbrella
+images/627.jpg
+25.77 rifle
+16.48 aircraft carrier
+10.06 paddle
+8.73 assault rifle
+8.64 reel
+images/628.jpg
+16.10 vacuum
+12.70 mouse
+6.61 oxygen mask
+5.63 espresso maker
+5.13 soap dispenser
+images/629.jpg
+34.65 nematode
+12.23 lacewing
+10.63 solar dish
+7.91 radio telescope
+7.28 oscilloscope
+images/63.jpg
+86.44 triceratops
+4.55 warthog
+3.38 hog
+3.13 hippopotamus
+0.73 Mexican hairless
+images/630.jpg
+28.96 golfcart
+17.06 teddy
+10.23 tricycle
+9.70 toyshop
+7.31 sewing machine
+images/631.jpg
+57.41 comic book
+40.35 jigsaw puzzle
+1.07 book jacket
+0.21 paintbrush
+0.14 tray
+images/632.jpg
+80.94 torch
+10.87 missile
+7.48 projectile
+0.47 space shuttle
+0.10 candle
+images/633.jpg
+38.49 macaque
+33.36 titi
+5.03 marmoset
+4.99 Boston bull
+4.89 French bulldog
+images/634.jpg
+93.86 cinema
+4.59 theater curtain
+1.04 tile roof
+0.21 folding chair
+0.09 comic book
+images/635.jpg
+99.92 cheetah
+0.04 leopard
+0.01 lion
+0.01 coyote
+0.01 jaguar
+images/636.jpg
+29.51 lens cap
+28.08 reflex camera
+19.14 digital watch
+3.38 cellular telephone
+3.19 stopwatch
+images/637.jpg
+91.28 volcano
+1.89 lakeside
+1.08 stupa
+0.53 alp
+0.32 bell cote
+images/638.jpg
+100.00 bow tie
+0.00 Windsor tie
+0.00 groom
+0.00 suit
+0.00 bonnet
+images/64.jpg
+99.13 peacock
+0.25 macaw
+0.14 drake
+0.08 European gallinule
+0.05 indigo bunting
+images/640.jpg
+45.58 wok
+16.06 frying pan
+15.31 hot pot
+5.69 Dutch oven
+2.22 spatula
+images/641.jpg
+30.26 wok
+18.61 spatula
+17.95 frying pan
+10.49 ladle
+2.94 wooden spoon
+images/642.jpg
+16.18 notebook
+9.68 laptop
+4.86 grand piano
+4.74 tray
+3.84 menu
+images/643.jpg
+30.37 cello
+8.73 shield
+6.48 violin
+5.26 motor scooter
+2.54 drum
+images/644.jpg
+60.32 perfume
+4.92 admiral
+2.49 tick
+2.17 lycaenid
+1.50 necklace
+images/645.jpg
+53.09 laptop
+14.97 notebook
+4.41 book jacket
+4.29 web site
+3.94 comic book
+images/646.jpg
+92.12 alp
+4.89 valley
+0.71 lakeside
+0.71 mountain tent
+0.50 volcano
+images/647.jpg
+4.06 iPod
+3.69 modem
+3.66 cellular telephone
+3.58 binder
+3.52 perfume
+images/648.jpg
+34.74 alp
+27.89 lakeside
+21.86 valley
+3.08 volcano
+2.76 seashore
+images/649.jpg
+66.09 French loaf
+13.84 plate
+8.42 potpie
+2.35 bagel
+2.21 rotisserie
+images/65.jpg
+18.12 breakwater
+7.58 pier
+5.37 fireboat
+5.27 aircraft carrier
+4.49 submarine
+images/650.jpg
+95.73 web site
+3.42 envelope
+0.11 book jacket
+0.08 cleaver
+0.07 menu
+images/651.jpg
+61.69 potpie
+13.71 hot pot
+5.69 eggnog
+2.68 consomme
+2.41 Crock Pot
+images/652.jpg
+100.00 theater curtain
+0.00 cinema
+0.00 velvet
+0.00 stage
+0.00 throne
+images/653.jpg
+23.54 caldron
+12.37 frying pan
+11.66 hot pot
+6.03 wooden spoon
+5.72 mixing bowl
+images/654.jpg
+88.80 frying pan
+3.81 Dutch oven
+2.73 hot pot
+0.97 potpie
+0.91 spatula
+images/655.jpg
+99.98 soccer ball
+0.01 rugby ball
+0.01 volleyball
+0.00 golf ball
+0.00 croquet ball
+images/656.jpg
+25.57 ram
+9.01 bighorn
+5.92 hare
+5.79 ice bear
+4.80 ibex
+images/657.jpg
+34.72 projectile
+28.53 missile
+13.59 warplane
+8.07 airliner
+6.50 space shuttle
+images/658.jpg
+82.06 spatula
+5.42 hook
+1.58 carpenter's kit
+0.97 analog clock
+0.76 rule
+images/659.jpg
+61.32 jaguar
+24.19 leopard
+3.69 cheetah
+1.34 flatworm
+1.29 banded gecko
+images/66.jpg
+93.71 car mirror
+2.69 tub
+1.93 bathtub
+0.21 bubble
+0.14 minibus
+images/660.jpg
+30.04 ballplayer
+9.09 football helmet
+5.64 torch
+2.85 ski
+2.81 baseball
+images/661.jpg
+14.30 shower curtain
+6.63 bathtub
+6.10 washbasin
+6.03 soap dispenser
+5.80 envelope
+images/662.jpg
+99.95 honeycomb
+0.03 apiary
+0.00 brassiere
+0.00 web site
+0.00 chainlink fence
+images/663.jpg
+77.96 web site
+16.16 menu
+2.16 envelope
+1.22 jigsaw puzzle
+0.54 comic book
+images/664.jpg
+60.68 comic book
+10.01 scoreboard
+5.39 packet
+4.01 menu
+3.33 book jacket
+images/665.jpg
+17.39 potpie
+16.61 French loaf
+10.08 hot pot
+8.51 Dungeness crab
+8.30 king crab
+images/666.jpg
+33.46 frying pan
+20.52 Dutch oven
+15.16 meat loaf
+11.63 hot pot
+5.02 caldron
+images/667.jpg
+28.27 promontory
+24.90 seashore
+16.08 alp
+11.70 valley
+7.01 lakeside
+images/668.jpg
+42.34 paddlewheel
+2.74 thresher
+2.01 pinwheel
+1.37 packet
+1.34 shield
+images/669.jpg
+68.47 web site
+20.87 comic book
+2.60 book jacket
+0.89 bookshop
+0.52 library
+images/67.jpg
+19.62 scuba diver
+9.33 tripod
+7.73 spotlight
+5.63 cliff
+4.53 wreck
+images/670.jpg
+16.95 packet
+11.88 eggnog
+8.10 coffee mug
+6.37 comic book
+4.70 book jacket
+images/671.jpg
+98.89 hot pot
+0.64 meat loaf
+0.22 caldron
+0.07 Dutch oven
+0.06 Crock Pot
+images/672.jpg
+17.88 hippopotamus
+12.75 grey whale
+12.03 dugong
+7.21 electric ray
+3.31 leatherback turtle
+images/673.jpg
+99.91 lion
+0.03 Arabian camel
+0.01 cougar
+0.01 leopard
+0.01 brown bear
+images/674.jpg
+86.18 tobacco shop
+3.66 grocery store
+1.61 confectionery
+0.81 restaurant
+0.74 bakery
+images/675.jpg
+12.62 barbershop
+12.38 web site
+7.51 barber chair
+4.71 bobsled
+2.92 lab coat
+images/676.jpg
+37.55 upright
+36.71 grand piano
+5.92 bullet train
+2.93 bannister
+2.35 theater curtain
+images/677.jpg
+95.39 web site
+0.85 hand-held computer
+0.49 menu
+0.35 Band Aid
+0.21 nipple
+images/678.jpg
+13.13 grocery store
+11.61 tobacco shop
+8.40 bakery
+4.30 microwave
+4.01 hamper
+images/679.jpg
+59.12 comic book
+8.18 book jacket
+5.40 web site
+2.99 reel
+1.84 scuba diver
+images/680.jpg
+34.42 ear
+17.86 corn
+5.43 cauliflower
+5.38 tench
+5.22 custard apple
+images/681.jpg
+50.94 hand-held computer
+27.70 cellular telephone
+5.01 remote control
+1.48 iPod
+1.31 switch
+images/682.jpg
+76.36 menu
+17.56 web site
+1.13 meat loaf
+0.79 French loaf
+0.68 potpie
+images/683.jpg
+54.73 potter's wheel
+3.95 apron
+3.28 bakery
+1.87 plane
+1.55 tobacco shop
+images/684.jpg
+97.03 home theater
+1.23 cinema
+0.60 theater curtain
+0.49 entertainment center
+0.11 studio couch
+images/685.jpg
+86.51 web site
+3.26 nematode
+2.07 comic book
+0.45 Indian cobra
+0.40 menu
+images/686.jpg
+40.83 seashore
+16.79 lakeside
+3.21 quill
+1.24 barn spider
+1.16 sandbar
+images/687.jpg
+99.75 tennis ball
+0.19 croquet ball
+0.03 racket
+0.02 basketball
+0.00 volleyball
+images/688.jpg
+19.03 home theater
+9.41 desktop computer
+6.16 monitor
+5.64 mouse
+4.93 convertible
+images/689.jpg
+9.97 cloak
+6.53 academic gown
+6.38 abaya
+5.45 web site
+5.35 book jacket
+images/69.jpg
+13.12 stove
+12.44 Crock Pot
+4.28 gown
+3.26 ladle
+3.17 groom
+images/690.jpg
+41.00 hot pot
+12.32 caldron
+8.51 meat loaf
+7.99 potpie
+7.91 Crock Pot
+images/691.jpg
+53.72 pick
+15.91 puck
+1.96 shield
+1.81 loupe
+1.14 gong
+images/692.jpg
+70.19 kuvasz
+19.49 Great Pyrenees
+3.06 ram
+1.17 hog
+1.10 komondor
+images/693.jpg
+61.93 hot pot
+18.95 pot
+2.17 wooden spoon
+2.17 consomme
+1.17 grocery store
+images/694.jpg
+97.52 web site
+0.52 oscilloscope
+0.51 screen
+0.43 hand-held computer
+0.12 menu
+images/695.jpg
+21.75 ballpoint
+18.59 rubber eraser
+7.84 envelope
+7.04 quill
+5.47 binder
+images/696.jpg
+81.16 comic book
+16.97 jigsaw puzzle
+0.41 book jacket
+0.30 toyshop
+0.25 altar
+images/697.jpg
+65.76 comic book
+3.87 book jacket
+2.44 toyshop
+1.92 shower cap
+1.72 scoreboard
+images/698.jpg
+6.21 cleaver
+3.99 envelope
+1.69 dishwasher
+1.25 letter opener
+1.24 spatula
+images/699.jpg
+30.48 steam locomotive
+12.34 space shuttle
+4.73 geyser
+3.90 volcano
+3.82 fountain
+images/7.jpg
+10.64 car mirror
+10.60 grille
+9.69 car wheel
+8.39 convertible
+5.82 minivan
+images/70.jpg
+94.07 car mirror
+4.95 seat belt
+0.32 minivan
+0.13 minibus
+0.07 limousine
+images/700.jpg
+87.08 book jacket
+3.18 comic book
+2.93 menu
+2.06 web site
+1.08 rapeseed
+images/701.jpg
+86.03 comic book
+5.75 jigsaw puzzle
+2.23 panpipe
+1.48 book jacket
+1.20 packet
+images/702.jpg
+60.64 web site
+22.33 book jacket
+2.37 packet
+1.82 menu
+1.65 comic book
+images/703.jpg
+94.89 comic book
+2.29 web site
+1.42 scoreboard
+1.15 book jacket
+0.03 panpipe
+images/704.jpg
+11.30 oxygen mask
+10.00 isopod
+8.45 nematode
+7.84 assault rifle
+3.03 bulletproof vest
+images/705.jpg
+60.78 sunglass
+19.73 sunglasses
+1.62 web site
+1.14 maillot
+0.90 stole
+images/706.jpg
+38.34 book jacket
+12.54 web site
+4.69 Band Aid
+3.85 comic book
+2.57 pill bottle
+images/707.jpg
+36.11 monitor
+14.30 screen
+8.23 television
+5.91 medicine chest
+5.22 restaurant
+images/708.jpg
+98.98 web site
+0.16 menu
+0.13 binder
+0.09 Band Aid
+0.07 nipple
+images/709.jpg
+57.10 sweatshirt
+20.92 jersey
+2.08 book jacket
+1.42 mailbag
+0.88 jean
+images/71.jpg
+32.28 jellyfish
+13.21 fountain
+10.63 stage
+8.82 mosquito net
+2.78 wig
+images/710.jpg
+12.13 hamper
+5.86 gong
+4.75 jackfruit
+2.86 strawberry
+2.74 shopping basket
+images/711.jpg
+16.53 theater curtain
+13.08 spotlight
+9.95 cloak
+9.26 torch
+6.83 abaya
+images/712.jpg
+65.74 potter's wheel
+6.37 miniskirt
+5.27 frying pan
+4.27 neck brace
+3.07 waffle iron
+images/713.jpg
+6.21 cleaver
+3.99 envelope
+1.69 dishwasher
+1.25 letter opener
+1.24 spatula
+images/714.jpg
+17.62 miniskirt
+6.37 trench coat
+6.26 triumphal arch
+3.20 bell cote
+2.99 cowboy boot
+images/715.jpg
+44.77 swimming trunks
+6.32 dumbbell
+5.08 sarong
+3.96 parallel bars
+2.73 horizontal bar
+images/716.jpg
+7.54 envelope
+7.51 cleaver
+3.95 web site
+2.58 matchstick
+1.43 dishwasher
+images/717.jpg
+13.21 magnetic compass
+5.58 spotlight
+4.59 caldron
+3.55 electric ray
+3.32 carousel
+images/718.jpg
+92.68 balance beam
+4.87 horizontal bar
+1.75 parallel bars
+0.19 stage
+0.11 pole
+images/719.jpg
+9.27 theater curtain
+7.62 spotlight
+2.99 stove
+2.95 cinema
+1.68 fire screen
+images/72.jpg
+25.79 rifle
+16.28 comic book
+7.57 assault rifle
+5.80 binoculars
+4.37 cannon
+images/720.jpg
+29.31 slot
+9.24 digital clock
+6.85 pay-phone
+6.49 cash machine
+6.32 gas pump
+images/721.jpg
+70.12 theater curtain
+10.56 window shade
+4.47 shower curtain
+2.13 home theater
+1.82 restaurant
+images/722.jpg
+43.27 maraca
+11.75 confectionery
+7.51 slot
+3.23 comic book
+3.16 packet
+images/723.jpg
+47.49 church
+19.19 stupa
+6.36 bell cote
+4.17 mosque
+3.86 dome
+images/724.jpg
+85.90 tiger
+12.40 tiger cat
+0.60 zebra
+0.16 bull mastiff
+0.09 tabby
+images/725.jpg
+23.99 web site
+12.02 television
+5.68 screen
+2.17 slot
+1.83 stretcher
+images/726.jpg
+14.65 digital clock
+7.56 Band Aid
+6.53 street sign
+6.36 web site
+6.29 shield
+images/727.jpg
+27.35 puck
+18.87 pick
+12.59 face powder
+9.77 web site
+4.88 ping-pong ball
+images/728.jpg
+99.04 racket
+0.81 tennis ball
+0.12 strainer
+0.01 loupe
+0.00 electric fan
+images/729.jpg
+47.05 hook
+7.29 nematode
+2.84 sea snake
+2.61 shovel
+2.04 nail
+images/73.jpg
+33.14 military uniform
+12.33 rifle
+5.84 book jacket
+5.57 assault rifle
+4.80 sax
+images/730.jpg
+13.48 hand blower
+6.19 plunger
+4.95 comic book
+4.91 maraca
+4.86 web site
+images/731.jpg
+65.61 llama
+34.23 Arabian camel
+0.14 ostrich
+0.00 Mexican hairless
+0.00 hog
+images/732.jpg
+26.23 book jacket
+8.36 web site
+4.75 comic book
+2.93 street sign
+2.25 packet
+images/733.jpg
+18.57 crossword puzzle
+13.87 book jacket
+5.10 comic book
+3.87 web site
+2.83 envelope
+images/734.jpg
+49.14 mixing bowl
+16.13 dough
+5.34 eggnog
+3.31 caldron
+2.71 mortar
+images/735.jpg
+23.20 book jacket
+6.98 comic book
+6.19 web site
+3.48 punching bag
+3.26 hair spray
+images/736.jpg
+32.35 web site
+3.72 hand-held computer
+3.61 binder
+3.01 cassette
+1.80 hand blower
+images/737.jpg
+62.33 velvet
+20.03 theater curtain
+5.75 switch
+3.36 maze
+0.96 loudspeaker
+images/738.jpg
+29.37 potpie
+19.96 bakery
+10.45 plate
+6.76 restaurant
+5.89 hen-of-the-woods
+images/739.jpg
+81.00 web site
+9.41 tobacco shop
+1.52 microwave
+0.98 moving van
+0.77 lumbermill
+images/74.jpg
+61.00 diaper
+10.46 bath towel
+10.07 packet
+2.53 swab
+1.24 plastic bag
+images/740.jpg
+17.14 web site
+12.51 book jacket
+9.98 jigsaw puzzle
+8.25 comic book
+7.18 envelope
+images/741.jpg
+19.18 chiton
+13.69 meat loaf
+11.00 tailed frog
+8.39 hen-of-the-woods
+3.08 isopod
+images/742.jpg
+13.96 notebook
+8.21 lab coat
+8.05 potter's wheel
+5.45 laptop
+4.71 photocopier
+images/743.jpg
+31.38 Norwegian elkhound
+16.20 groenendael
+7.66 grey fox
+5.72 kelpie
+5.24 schipperke
+images/744.jpg
+91.66 tiger
+6.63 tiger cat
+0.50 jaguar
+0.10 zebra
+0.10 tabby
+images/745.jpg
+93.73 guenon
+2.39 patas
+1.93 macaque
+0.54 langur
+0.41 titi
+images/746.jpg
+51.01 sunglass
+15.50 sunglasses
+7.74 seat belt
+1.49 oxygen mask
+1.47 electric ray
+images/747.jpg
+22.74 sea lion
+16.84 leatherback turtle
+9.03 platypus
+7.88 king penguin
+6.33 grey whale
+images/748.jpg
+43.75 fur coat
+20.90 theater curtain
+5.80 swab
+4.07 panpipe
+2.97 fountain
+images/749.jpg
+58.26 fountain
+20.24 geyser
+2.36 analog clock
+1.28 web site
+0.92 drilling platform
+images/75.jpg
+38.91 stone wall
+32.16 African crocodile
+5.47 megalith
+1.37 ear
+1.14 breakwater
+images/750.jpg
+45.42 web site
+2.43 balance beam
+2.23 jersey
+2.00 jean
+1.69 bulletproof vest
+images/751.jpg
+96.65 jellyfish
+0.59 electric ray
+0.57 digital clock
+0.55 nematode
+0.24 jack-o'-lantern
+images/752.jpg
+17.81 prison
+5.73 fire screen
+4.37 cinema
+3.53 traffic light
+2.98 sliding door
+images/753.jpg
+35.93 warplane
+10.58 ski
+9.99 airliner
+8.28 speedboat
+4.06 space shuttle
+images/754.jpg
+71.69 slide rule
+14.64 rule
+3.65 syringe
+2.54 harmonica
+0.67 oboe
+images/755.jpg
+75.64 Band Aid
+3.33 packet
+3.08 book jacket
+2.77 plastic bag
+2.47 web site
+images/756.jpg
+60.30 frying pan
+9.92 Dutch oven
+6.34 waffle iron
+3.69 potpie
+3.32 acorn squash
+images/757.jpg
+25.30 seashore
+22.15 cliff
+15.92 promontory
+7.21 valley
+4.42 alp
+images/758.jpg
+60.35 wallaby
+7.50 hare
+5.22 fox squirrel
+3.38 titi
+3.11 wood rabbit
+images/759.jpg
+99.72 jersey
+0.22 sweatshirt
+0.01 maillot
+0.01 torch
+0.00 maillot
+images/76.jpg
+25.46 lampshade
+9.09 bolo tie
+5.36 buckle
+3.81 crash helmet
+2.95 bubble
+images/760.jpg
+7.39 web site
+4.82 book jacket
+3.19 sunscreen
+2.49 envelope
+2.46 hair spray
+images/761.jpg
+8.78 airship
+7.09 sarong
+3.62 parachute
+3.56 plastic bag
+2.55 sandbar
+images/762.jpg
+34.70 book jacket
+23.85 envelope
+5.93 binder
+5.48 plastic bag
+3.17 menu
+images/763.jpg
+33.25 bassoon
+17.18 stage
+15.75 oboe
+5.96 flute
+5.79 electric guitar
+images/764.jpg
+25.41 restaurant
+11.76 grocery store
+6.72 lab coat
+3.89 potter's wheel
+2.72 beaker
+images/765.jpg
+28.08 web site
+19.73 Band Aid
+7.29 envelope
+2.79 packet
+2.21 puck
+images/766.jpg
+55.13 potpie
+42.30 French loaf
+0.47 bakery
+0.37 pizza
+0.23 pretzel
+images/767.jpg
+16.11 theater curtain
+13.23 sarong
+7.07 kimono
+6.02 abaya
+2.57 cloak
+images/768.jpg
+5.01 hook
+4.44 balance beam
+2.85 ski
+2.67 corkscrew
+2.53 power drill
+images/769.jpg
+49.21 African elephant
+48.67 tusker
+2.11 Indian elephant
+0.00 triceratops
+0.00 bighorn
+images/77.jpg
+72.44 syringe
+13.92 perfume
+4.97 lipstick
+1.65 tripod
+0.82 lighter
+images/770.jpg
+15.62 hot pot
+13.93 caldron
+12.63 consomme
+6.51 face powder
+5.75 head cabbage
+images/771.jpg
+95.80 web site
+1.56 joystick
+0.30 remote control
+0.29 switch
+0.17 oscilloscope
+images/772.jpg
+10.55 envelope
+7.81 Band Aid
+6.72 nipple
+2.22 sunscreen
+1.78 rubber eraser
+images/773.jpg
+59.66 jigsaw puzzle
+9.96 comic book
+8.27 book jacket
+2.15 packet
+0.96 prayer rug
+images/774.jpg
+12.27 switch
+11.04 Band Aid
+6.58 web site
+4.43 nipple
+2.93 whistle
+images/775.jpg
+92.28 toyshop
+2.37 altar
+1.50 confectionery
+1.11 tobacco shop
+0.35 balloon
+images/776.jpg
+61.57 hot pot
+9.01 plate
+6.25 consomme
+2.40 frying pan
+2.27 eggnog
+images/777.jpg
+59.50 theater curtain
+28.93 cinema
+1.90 maze
+1.61 palace
+0.68 tobacco shop
+images/778.jpg
+94.16 basketball
+4.49 volleyball
+0.20 ballplayer
+0.13 comic book
+0.09 rugby ball
+images/779.jpg
+77.56 web site
+17.48 menu
+1.40 book jacket
+1.29 envelope
+0.40 lotion
+images/78.jpg
+17.49 joystick
+14.28 potter's wheel
+7.93 espresso maker
+7.85 loupe
+5.92 scale
+images/780.jpg
+16.26 car mirror
+9.55 limousine
+6.29 cellular telephone
+5.56 sports car
+3.83 racer
+images/781.jpg
+98.20 web site
+0.48 screen
+0.37 oscilloscope
+0.26 hand-held computer
+0.26 desktop computer
+images/782.jpg
+33.00 comic book
+18.45 book jacket
+4.59 volcano
+2.12 electric guitar
+2.02 space shuttle
+images/783.jpg
+51.36 promontory
+43.17 seashore
+1.64 valley
+1.08 cliff
+0.60 lakeside
+images/784.jpg
+13.95 soap dispenser
+12.24 spatula
+8.48 mixing bowl
+8.07 strainer
+5.58 frying pan
+images/785.jpg
+22.46 seashore
+4.39 volcano
+4.26 airship
+3.28 lakeside
+3.21 nematode
+images/786.jpg
+52.16 Egyptian cat
+20.76 tiger cat
+18.44 tabby
+4.23 lynx
+0.94 television
+images/787.jpg
+21.07 lakeside
+19.65 dock
+11.62 seashore
+8.77 steel arch bridge
+8.66 drilling platform
+images/788.jpg
+45.75 comic book
+15.92 book jacket
+1.57 shovel
+1.27 lighter
+1.26 envelope
+images/789.jpg
+8.99 corn
+6.15 ear
+4.92 jersey
+2.56 stole
+2.19 hair slide
+images/79.jpg
+18.58 bow
+10.45 warplane
+9.72 missile
+9.40 projectile
+3.09 bubble
+images/790.jpg
+75.31 brassiere
+7.01 bikini
+6.26 maillot
+5.45 maillot
+2.24 dumbbell
+images/791.jpg
+76.23 red fox
+11.64 kit fox
+5.18 grey fox
+3.92 red wolf
+1.55 dhole
+images/792.jpg
+59.98 packet
+6.52 can opener
+2.30 comic book
+2.07 plate
+1.52 safety pin
+images/793.jpg
+47.81 cinema
+27.16 home theater
+6.36 barber chair
+3.15 theater curtain
+2.31 waffle iron
+images/794.jpg
+90.47 Dungeness crab
+8.56 king crab
+0.73 American lobster
+0.08 rock crab
+0.04 hot pot
+images/795.jpg
+17.79 dough
+16.74 potter's wheel
+7.90 eggnog
+3.60 spaghetti squash
+3.07 plane
+images/796.jpg
+9.27 toilet seat
+7.61 bathtub
+6.14 cradle
+3.69 washbasin
+3.26 bassinet
+images/797.jpg
+75.47 potter's wheel
+15.54 plate
+3.76 lab coat
+2.28 Petri dish
+0.64 restaurant
+images/798.jpg
+60.94 Dungeness crab
+21.02 American lobster
+10.44 plate
+5.27 king crab
+0.71 potpie
+images/799.jpg
+18.94 ski
+9.18 comic book
+7.06 web site
+6.67 envelope
+4.47 jigsaw puzzle
+images/8.jpg
+36.17 strainer
+11.84 potter's wheel
+11.53 frying pan
+7.69 Crock Pot
+4.22 wok
+images/80.jpg
+11.82 web site
+2.19 spotlight
+1.91 monitor
+1.86 fountain
+1.84 prison
+images/800.jpg
+6.67 sunscreen
+6.45 bucket
+6.08 punching bag
+5.85 coffee mug
+4.76 cocktail shaker
+images/801.jpg
+46.43 parallel bars
+36.41 horizontal bar
+11.32 balance beam
+1.65 volleyball
+1.15 pole
+images/802.jpg
+6.98 spotlight
+6.40 plastic bag
+5.31 ashcan
+3.35 hair slide
+2.90 pinwheel
+images/803.jpg
+11.02 minibus
+10.84 moving van
+9.98 tow truck
+7.46 limousine
+6.58 minivan
+images/804.jpg
+10.71 jellyfish
+8.58 isopod
+8.50 nematode
+7.46 rock beauty
+5.94 volcano
+images/805.jpg
+79.24 basketball
+20.37 volleyball
+0.22 balance beam
+0.10 horizontal bar
+0.04 parallel bars
+images/806.jpg
+19.20 comic book
+6.81 theater curtain
+5.87 drumstick
+3.29 hair slide
+2.30 steel drum
+images/807.jpg
+6.91 desk
+3.98 accordion
+3.57 grand piano
+2.97 notebook
+2.79 web site
+images/808.jpg
+26.37 balance beam
+19.54 parallel bars
+17.88 horizontal bar
+3.75 gown
+2.45 sarong
+images/809.jpg
+37.64 stove
+12.39 microwave
+7.29 dishwasher
+3.52 fire screen
+2.76 washer
+images/81.jpg
+57.18 jigsaw puzzle
+8.83 drilling platform
+5.32 altar
+2.21 aircraft carrier
+2.13 toyshop
+images/810.jpg
+17.53 rotisserie
+6.69 neck brace
+3.87 bloodhound
+3.77 vizsla
+3.45 redbone
+images/811.jpg
+38.72 palace
+27.33 castle
+18.97 lakeside
+9.57 boathouse
+2.17 monastery
+images/812.jpg
+25.39 potter's wheel
+15.30 waffle iron
+11.94 frying pan
+3.31 stove
+3.23 hot pot
+images/813.jpg
+25.29 web site
+19.56 Band Aid
+2.20 envelope
+1.59 packet
+1.27 whistle
+images/814.jpg
+36.06 airship
+5.97 airliner
+4.24 projectile
+3.19 letter opener
+2.55 cleaver
+images/815.jpg
+7.69 theater curtain
+6.41 stage
+4.13 airship
+4.07 jigsaw puzzle
+3.47 balloon
+images/816.jpg
+9.70 indigo bunting
+9.07 macaw
+7.10 guenon
+4.53 titi
+3.38 indri
+images/817.jpg
+9.71 balance beam
+7.08 comic book
+6.73 paddle
+4.70 basketball
+3.65 stretcher
+images/818.jpg
+61.34 alp
+35.34 valley
+1.05 lakeside
+0.52 cliff
+0.30 web site
+images/819.jpg
+50.80 balance beam
+40.40 horizontal bar
+8.46 parallel bars
+0.03 nematode
+0.01 sarong
+images/82.jpg
+34.84 menu
+21.40 web site
+5.59 book jacket
+4.17 cash machine
+3.81 screen
+images/820.jpg
+89.34 web site
+2.17 envelope
+1.79 menu
+0.90 handkerchief
+0.45 packet
+images/821.jpg
+79.75 hot pot
+8.14 Crock Pot
+6.92 consomme
+3.88 caldron
+0.34 Dutch oven
+images/822.jpg
+23.68 restaurant
+10.64 potter's wheel
+8.47 Crock Pot
+7.62 plate
+7.12 microwave
+images/823.jpg
+70.05 sports car
+19.56 racer
+3.32 convertible
+0.79 police van
+0.74 minivan
+images/824.jpg
+6.41 gasmask
+5.57 balance beam
+4.69 spotlight
+3.76 suit
+3.64 brassiere
+images/825.jpg
+46.20 comic book
+20.50 torch
+6.72 brassiere
+3.92 book jacket
+2.82 volcano
+images/826.jpg
+29.41 ski mask
+9.17 torch
+5.02 ski
+3.90 ocarina
+3.87 ballplayer
+images/827.jpg
+46.22 oxcart
+18.34 ox
+17.08 horse cart
+5.07 warthog
+3.65 water buffalo
+images/828.jpg
+99.97 lion
+0.01 cheetah
+0.01 Arabian camel
+0.00 cougar
+0.00 golden retriever
+images/829.jpg
+66.42 theater curtain
+20.96 bearskin
+2.39 abaya
+1.11 groom
+0.92 web site
+images/83.jpg
+34.68 miniskirt
+34.15 maillot
+14.11 maillot
+2.60 balance beam
+2.38 sandal
+images/830.jpg
+12.09 book jacket
+10.78 plunger
+5.95 ladle
+5.84 comic book
+5.29 candle
+images/831.jpg
+91.67 tiger
+8.06 tiger cat
+0.11 jaguar
+0.07 tabby
+0.01 leopard
+images/832.jpg
+5.31 puck
+4.87 stethoscope
+3.17 paper towel
+3.15 nipple
+2.77 football helmet
+images/833.jpg
+63.83 hot pot
+20.37 frying pan
+6.14 caldron
+2.40 wok
+1.70 Dutch oven
+images/834.jpg
+22.24 eggnog
+8.76 lotion
+7.18 nipple
+5.51 corn
+5.27 sunscreen
+images/835.jpg
+17.30 book jacket
+10.97 menu
+9.92 candle
+7.99 restaurant
+7.76 comic book
+images/836.jpg
+37.72 puck
+17.75 bobsled
+11.33 ski
+5.42 knee pad
+3.77 ballplayer
+images/837.jpg
+8.93 whistle
+7.12 pinwheel
+2.61 hook
+1.99 academic gown
+1.93 punching bag
+images/838.jpg
+49.42 comic book
+8.06 web site
+3.13 bow
+2.97 solar dish
+2.91 fountain
+images/839.jpg
+13.40 sunscreen
+12.49 Band Aid
+11.70 packet
+8.14 pill bottle
+4.74 puck
+images/840.jpg
+42.77 plate
+28.86 potpie
+6.04 spaghetti squash
+2.44 carbonara
+1.81 meat loaf
+images/841.jpg
+84.72 frying pan
+6.59 wok
+2.59 spatula
+1.02 plate
+0.71 waffle iron
+images/842.jpg
+81.22 theater curtain
+14.81 cinema
+2.45 stage
+0.36 restaurant
+0.29 home theater
+images/843.jpg
+49.76 Windsor tie
+21.55 suit
+4.99 television
+3.27 screen
+3.15 hand-held computer
+images/844.jpg
+96.80 lab coat
+1.03 sweatshirt
+0.60 ballplayer
+0.29 jersey
+0.25 torch
+images/845.jpg
+67.45 parachute
+7.23 ski
+4.60 comic book
+1.62 toyshop
+1.51 hair slide
+images/846.jpg
+42.46 laptop
+22.06 notebook
+7.23 hand-held computer
+6.80 mouse
+5.50 web site
+images/847.jpg
+12.98 face powder
+9.89 piggy bank
+4.51 nipple
+3.48 switch
+2.65 whistle
+images/848.jpg
+52.83 meat loaf
+8.58 chiton
+6.54 hen-of-the-woods
+2.74 French loaf
+2.33 flatworm
+images/849.jpg
+59.32 plate
+14.32 meat loaf
+6.13 American lobster
+3.38 potpie
+2.81 broccoli
+images/85.jpg
+60.89 wing
+26.80 airliner
+6.63 warplane
+4.22 airship
+0.83 aircraft carrier
+images/850.jpg
+87.15 honeycomb
+2.53 matchstick
+0.70 nail
+0.69 nematode
+0.57 golf ball
+images/851.jpg
+25.08 hen-of-the-woods
+10.06 earthstar
+3.62 meat loaf
+3.28 plate
+2.83 gyromitra
+images/852.jpg
+15.99 hook
+9.95 safety pin
+4.65 nipple
+1.88 street sign
+1.75 beaker
+images/853.jpg
+55.25 oxygen mask
+20.67 comic book
+3.05 acoustic guitar
+2.60 gasmask
+1.99 electric guitar
+images/854.jpg
+9.72 jean
+6.29 solar dish
+4.84 prison
+3.30 cash machine
+3.19 sliding door
+images/855.jpg
+14.89 comic book
+11.83 scuba diver
+8.42 book jacket
+4.64 bobsled
+4.03 electric ray
+images/856.jpg
+14.87 solar dish
+4.07 balance beam
+2.65 jean
+2.45 potter's wheel
+2.13 iron
+images/857.jpg
+16.11 spider monkey
+8.55 Arabian camel
+7.96 gibbon
+7.36 siamang
+2.94 black stork
+images/858.jpg
+74.75 potpie
+9.23 meat loaf
+8.02 plate
+0.98 French loaf
+0.66 hen-of-the-woods
+images/859.jpg
+11.88 oboe
+11.30 basketball
+9.45 parallel bars
+3.55 stage
+3.18 swimming trunks
+images/86.jpg
+50.33 church
+21.99 traffic light
+8.20 bell cote
+4.78 birdhouse
+2.37 cinema
+images/860.jpg
+39.55 French loaf
+11.86 potpie
+7.66 rotisserie
+3.56 shopping basket
+1.33 bakery
+images/861.jpg
+50.89 hot pot
+41.60 potpie
+2.70 consomme
+1.76 plate
+0.34 meat loaf
+images/862.jpg
+43.40 frying pan
+25.79 meat loaf
+6.42 potpie
+5.08 hen-of-the-woods
+4.10 French loaf
+images/863.jpg
+89.62 hog
+1.97 wild boar
+0.72 wire-haired fox terrier
+0.64 kelpie
+0.51 ox
+images/864.jpg
+21.09 potpie
+21.05 bolete
+17.15 hen-of-the-woods
+12.84 French loaf
+9.66 mushroom
+images/865.jpg
+64.84 Dutch oven
+28.22 caldron
+1.11 frying pan
+0.68 steel drum
+0.39 hot pot
+images/866.jpg
+51.35 Indian elephant
+35.73 tusker
+12.51 African elephant
+0.29 water buffalo
+0.05 bison
+images/867.jpg
+55.49 hot pot
+9.72 Dutch oven
+7.23 frying pan
+5.29 caldron
+3.96 wok
+images/868.jpg
+38.98 tank
+9.24 aircraft carrier
+8.07 space shuttle
+5.41 amphibian
+3.60 analog clock
+images/869.jpg
+24.08 balance beam
+9.76 horizontal bar
+5.09 pole
+4.20 bikini
+3.72 parallel bars
+images/87.jpg
+55.37 military uniform
+10.06 mailbag
+4.19 safety pin
+2.88 rifle
+1.97 packet
+images/870.jpg
+22.12 hook
+10.98 analog clock
+4.42 wall clock
+2.82 digital clock
+2.81 street sign
+images/871.jpg
+49.90 maypole
+11.27 bow
+4.96 monastery
+1.70 hoopskirt
+1.70 lumbermill
+images/872.jpg
+27.47 balance beam
+24.14 horizontal bar
+4.65 television
+4.39 theater curtain
+4.24 studio couch
+images/873.jpg
+25.04 web site
+9.76 scoreboard
+6.14 slot
+3.98 digital clock
+3.82 gas pump
+images/874.jpg
+63.04 lionfish
+5.96 lumbermill
+5.93 paddlewheel
+4.39 fountain
+3.85 sea urchin
+images/875.jpg
+20.74 packet
+16.97 book jacket
+9.96 web site
+5.94 scoreboard
+5.70 comic book
+images/876.jpg
+65.47 ski mask
+14.92 mask
+3.87 bulletproof vest
+2.19 abaya
+1.81 oxygen mask
+images/877.jpg
+17.30 valley
+14.90 geyser
+4.77 seashore
+3.31 cliff
+3.14 Indian elephant
+images/878.jpg
+55.10 wall clock
+13.94 puck
+12.65 analog clock
+7.24 shield
+2.43 disk brake
+images/879.jpg
+76.64 rotisserie
+5.40 meat loaf
+3.48 French loaf
+2.21 chiton
+1.07 stinkhorn
+images/88.jpg
+21.73 bow
+17.17 maypole
+8.55 handkerchief
+7.38 flagpole
+5.20 carousel
+images/880.jpg
+4.88 web site
+4.18 book jacket
+2.69 hair spray
+2.13 rule
+1.63 pill bottle
+images/881.jpg
+16.68 soccer ball
+11.61 parachute
+8.89 knee pad
+5.30 swimming trunks
+2.81 basketball
+images/882.jpg
+14.67 balance beam
+11.08 horizontal bar
+10.93 pole
+5.53 knee pad
+4.97 volleyball
+images/883.jpg
+42.62 plate
+16.03 French loaf
+7.82 head cabbage
+6.41 hen-of-the-woods
+6.02 meat loaf
+images/884.jpg
+37.62 warthog
+20.03 hog
+9.60 hippopotamus
+9.09 tusker
+7.25 wild boar
+images/885.jpg
+55.51 plate
+16.99 potpie
+6.12 pizza
+4.92 carbonara
+4.27 French loaf
+images/886.jpg
+55.05 web site
+14.44 wardrobe
+1.75 safe
+1.56 file
+1.48 shoji
+images/887.jpg
+16.13 American lobster
+12.48 king crab
+9.77 hen-of-the-woods
+4.91 spaghetti squash
+4.66 plate
+images/888.jpg
+22.65 puck
+17.42 Band Aid
+11.07 maze
+9.11 pick
+4.08 street sign
+images/889.jpg
+26.09 digital clock
+15.31 book jacket
+8.98 scoreboard
+4.01 street sign
+2.60 digital watch
+images/89.jpg
+46.64 Crock Pot
+19.44 coffeepot
+9.85 espresso maker
+4.75 ashcan
+3.35 cup
+images/890.jpg
+24.95 barbell
+12.78 horizontal bar
+7.93 ski
+5.86 parallel bars
+5.40 balance beam
+images/891.jpg
+48.70 wooden spoon
+41.67 mortar
+3.18 shovel
+1.97 plunger
+0.62 spatula
+images/892.jpg
+40.25 theater curtain
+23.08 stage
+5.67 maypole
+4.09 basketball
+2.29 torch
+images/893.jpg
+28.86 iPod
+28.32 web site
+13.98 hand-held computer
+4.51 cellular telephone
+4.21 binder
+images/894.jpg
+90.11 comic book
+8.43 book jacket
+0.13 panpipe
+0.09 packet
+0.08 Band Aid
+images/895.jpg
+69.77 Band Aid
+3.79 envelope
+1.97 rubber eraser
+0.99 web site
+0.87 pill bottle
+images/896.jpg
+36.19 theater curtain
+7.21 stove
+7.06 home theater
+6.06 fire screen
+4.77 cinema
+images/897.jpg
+70.12 web site
+7.01 book jacket
+4.63 comic book
+1.21 hair spray
+0.93 brassiere
+images/898.jpg
+51.61 theater curtain
+6.83 home theater
+5.85 cinema
+3.11 maze
+2.23 stage
+images/899.jpg
+8.72 whistle
+7.57 ski
+2.92 carpenter's kit
+2.33 comic book
+2.28 mailbag
+images/9.jpg
+98.52 gibbon
+1.08 siamang
+0.11 titi
+0.08 indri
+0.06 langur
+images/90.jpg
+34.25 football helmet
+8.58 ballplayer
+5.51 lifeboat
+3.64 violin
+3.13 teddy
+images/900.jpg
+93.27 airliner
+4.36 wing
+1.06 warplane
+0.40 space shuttle
+0.34 projectile
+images/901.jpg
+13.85 eggnog
+12.15 corn
+11.61 hot pot
+9.42 consomme
+6.81 caldron
+images/902.jpg
+91.13 book jacket
+2.73 comic book
+1.33 street sign
+0.63 barbershop
+0.57 tobacco shop
+images/903.jpg
+20.29 lakeside
+12.15 canoe
+6.86 grey whale
+5.96 paddle
+5.04 steel arch bridge
+images/904.jpg
+10.82 book jacket
+9.35 jersey
+4.06 comic book
+3.16 packet
+2.80 web site
+images/905.jpg
+86.86 theater curtain
+5.18 cinema
+3.55 maze
+1.89 home theater
+0.50 stage
+images/906.jpg
+99.06 wing
+0.88 airliner
+0.03 warplane
+0.01 projectile
+0.01 aircraft carrier
+images/907.jpg
+88.42 broccoli
+5.31 hen-of-the-woods
+3.36 gyromitra
+0.90 pretzel
+0.73 cauliflower
+images/908.jpg
+42.42 limousine
+16.35 cab
+3.79 minivan
+2.88 tow truck
+2.70 passenger car
+images/909.jpg
+11.46 sunscreen
+7.59 pill bottle
+4.75 water bottle
+3.95 Band Aid
+3.89 hair spray
+images/91.jpg
+78.76 jigsaw puzzle
+11.24 comic book
+2.74 envelope
+1.79 tray
+0.55 rubber eraser
+images/910.jpg
+38.69 book jacket
+15.88 comic book
+7.08 web site
+2.39 tobacco shop
+1.95 barbershop
+images/911.jpg
+17.85 brassiere
+9.12 maillot
+8.23 dumbbell
+6.72 maillot
+5.75 miniskirt
+images/912.jpg
+51.55 gasmask
+38.70 oxygen mask
+2.71 ski mask
+2.54 neck brace
+0.58 jersey
+images/913.jpg
+19.63 web site
+4.14 envelope
+1.95 hook
+1.79 book jacket
+1.31 analog clock
+images/914.jpg
+21.97 web site
+10.03 television
+6.10 slot
+4.72 monitor
+4.49 scoreboard
+images/915.jpg
+42.72 potpie
+39.71 French loaf
+6.84 pizza
+3.69 hen-of-the-woods
+1.94 meat loaf
+images/916.jpg
+51.23 solar dish
+6.38 fountain
+5.55 vault
+4.65 dome
+2.98 radio telescope
+images/917.jpg
+81.62 jersey
+10.11 sweatshirt
+5.94 comic book
+0.38 book jacket
+0.12 maillot
+images/918.jpg
+8.36 parachute
+6.01 whistle
+4.44 brassiere
+3.68 flagpole
+2.24 plastic bag
+images/919.jpg
+48.28 web site
+17.62 comic book
+3.09 slot
+1.58 packet
+1.37 book jacket
+images/920.jpg
+53.50 packet
+4.79 toilet tissue
+4.71 paper towel
+2.49 diaper
+2.27 bib
+images/921.jpg
+69.23 envelope
+18.61 binder
+2.58 book jacket
+2.51 mortarboard
+1.34 rubber eraser
+images/922.jpg
+60.89 web site
+7.05 book jacket
+2.92 comic book
+1.26 nematode
+1.08 scoreboard
+images/923.jpg
+11.46 balance beam
+7.78 abaya
+6.81 platypus
+5.40 chimpanzee
+2.81 comic book
+images/924.jpg
+22.06 oxygen mask
+15.44 reel
+10.76 binoculars
+10.74 disk brake
+8.86 scuba diver
+images/925.jpg
+76.82 African elephant
+18.30 tusker
+4.84 Indian elephant
+0.02 triceratops
+0.01 warthog
+images/926.jpg
+22.45 web site
+22.06 book jacket
+5.53 comic book
+3.30 hair spray
+2.18 menu
+images/927.jpg
+13.41 laptop
+10.06 notebook
+5.24 window shade
+3.61 window screen
+2.46 pajama
+images/928.jpg
+100.00 web site
+0.00 menu
+0.00 book jacket
+0.00 envelope
+0.00 screen
+images/929.jpg
+6.14 stretcher
+4.34 parachute
+3.58 comic book
+2.95 web site
+2.85 limousine
+images/93.jpg
+49.27 electric guitar
+13.64 acoustic guitar
+12.67 accordion
+4.82 trombone
+3.88 violin
+images/930.jpg
+51.84 web site
+2.62 comic book
+1.95 book jacket
+0.83 seashore
+0.56 tripod
+images/931.jpg
+56.89 balance beam
+9.65 theater curtain
+9.63 stage
+3.92 horizontal bar
+3.21 parallel bars
+images/932.jpg
+72.64 meat loaf
+10.81 French loaf
+7.06 plate
+2.35 mashed potato
+0.96 hen-of-the-woods
+images/933.jpg
+27.68 basketball
+5.27 volleyball
+4.47 balance beam
+4.35 prison
+2.86 punching bag
+images/934.jpg
+59.08 web site
+5.74 notebook
+5.43 laptop
+4.33 desktop computer
+3.93 hand-held computer
+images/935.jpg
+33.04 caldron
+25.09 hot pot
+8.19 consomme
+4.90 eggnog
+3.83 Petri dish
+images/936.jpg
+17.45 loupe
+7.37 book jacket
+6.59 web site
+3.03 face powder
+2.48 lotion
+images/937.jpg
+46.90 sorrel
+19.73 Arabian camel
+6.58 Mexican hairless
+6.02 hartebeest
+2.19 ox
+images/938.jpg
+25.33 comic book
+9.09 packet
+9.02 book jacket
+6.89 cassette
+6.06 web site
+images/939.jpg
+36.49 envelope
+13.95 rubber eraser
+8.70 letter opener
+4.67 loupe
+4.00 packet
+images/94.jpg
+14.97 table lamp
+9.92 teapot
+8.01 lampshade
+7.53 joystick
+6.11 spotlight
+images/940.jpg
+50.44 puck
+21.42 web site
+17.45 face powder
+1.57 CD player
+0.99 analog clock
+images/941.jpg
+24.12 prison
+10.30 guillotine
+6.98 planetarium
+3.48 solar dish
+2.85 crate
+images/942.jpg
+29.36 Crock Pot
+8.62 oil filter
+5.63 toaster
+5.50 hamper
+5.18 coffeepot
+images/943.jpg
+19.39 maze
+4.51 hook
+3.34 envelope
+3.34 coil
+2.67 cleaver
+images/944.jpg
+23.26 spaghetti squash
+14.59 plate
+9.12 potpie
+7.24 frying pan
+6.60 American lobster
+images/945.jpg
+42.17 turnstile
+5.85 library
+3.64 forklift
+3.60 golfcart
+3.28 prison
+images/946.jpg
+38.63 French loaf
+32.33 potpie
+2.33 pretzel
+2.05 horned viper
+1.51 bakery
+images/947.jpg
+23.41 comic book
+12.39 rock beauty
+11.77 book jacket
+11.47 packet
+5.89 coral reef
+images/948.jpg
+33.64 parallel bars
+28.34 balance beam
+14.74 gown
+9.55 hoopskirt
+7.37 horizontal bar
+images/949.jpg
+65.20 barrel
+13.40 Petri dish
+3.17 toilet seat
+2.14 bottlecap
+1.78 shield
+images/95.jpg
+48.10 packet
+24.97 diaper
+6.58 plastic bag
+2.95 toilet tissue
+2.47 paper towel
+images/950.jpg
+72.42 football helmet
+7.70 ballplayer
+6.69 bobsled
+3.77 bulletproof vest
+3.66 crash helmet
+images/951.jpg
+14.40 whistle
+7.83 maze
+6.80 envelope
+4.46 plate rack
+4.13 Band Aid
+images/952.jpg
+96.01 soccer ball
+2.11 rugby ball
+0.70 baseball
+0.35 ballplayer
+0.29 football helmet
+images/953.jpg
+14.08 parallel bars
+8.27 balance beam
+4.99 seat belt
+4.46 horizontal bar
+3.53 tricycle
+images/954.jpg
+13.85 plate
+9.50 meat loaf
+5.24 American lobster
+4.72 consomme
+3.52 tray
+images/955.jpg
+10.05 planetarium
+7.51 solar dish
+5.06 spotlight
+4.84 dam
+4.51 theater curtain
+images/956.jpg
+21.26 iPod
+18.87 web site
+12.21 digital clock
+9.85 envelope
+3.54 desktop computer
+images/957.jpg
+5.58 Band Aid
+4.58 nipple
+3.90 baseball
+3.20 water bottle
+2.52 sunscreen
+images/958.jpg
+96.06 comic book
+3.65 book jacket
+0.02 panpipe
+0.02 web site
+0.02 ski
+images/959.jpg
+96.77 comic book
+2.47 mask
+0.39 book jacket
+0.04 packet
+0.03 punching bag
+images/96.jpg
+88.86 aircraft carrier
+9.29 warplane
+0.97 wing
+0.15 projectile
+0.12 trimaran
+images/960.jpg
+16.63 desk
+6.63 mouse
+6.20 file
+4.19 web site
+4.04 binder
+images/961.jpg
+99.11 web site
+0.27 hand-held computer
+0.18 remote control
+0.06 modem
+0.03 cellular telephone
+images/962.jpg
+98.23 hot pot
+0.95 caldron
+0.49 consomme
+0.08 potpie
+0.07 Crock Pot
+images/963.jpg
+9.59 rule
+7.45 web site
+6.68 nematode
+3.84 envelope
+2.52 slide rule
+images/964.jpg
+99.98 web site
+0.01 menu
+0.00 screen
+0.00 hand-held computer
+0.00 monitor
+images/965.jpg
+22.66 spaghetti squash
+12.85 plate
+7.91 orange
+7.07 potpie
+6.83 lemon
+images/966.jpg
+53.49 bell cote
+6.97 monastery
+5.54 dome
+3.77 planetarium
+3.17 academic gown
+images/967.jpg
+95.96 oystercatcher
+3.29 black stork
+0.29 European gallinule
+0.18 redshank
+0.06 white stork
+images/968.jpg
+78.06 web site
+6.07 comic book
+2.17 envelope
+1.50 nipple
+1.08 book jacket
+images/969.jpg
+16.44 street sign
+13.43 analog clock
+8.28 web site
+8.15 rule
+4.85 wall clock
+images/97.jpg
+94.88 assault rifle
+4.81 rifle
+0.24 revolver
+0.04 bulletproof vest
+0.02 holster
+images/970.jpg
+61.53 web site
+10.82 book jacket
+3.76 comic book
+2.61 menu
+1.46 binder
+images/971.jpg
+99.79 zebra
+0.10 prairie chicken
+0.07 hartebeest
+0.01 tiger
+0.01 gazelle
+images/972.jpg
+36.46 bubble
+30.29 Petri dish
+4.88 sunglass
+4.15 oxygen mask
+2.56 sunglasses
+images/973.jpg
+75.10 plate
+5.69 consomme
+5.45 hot pot
+3.54 potpie
+1.18 carbonara
+images/974.jpg
+6.85 comic book
+5.77 book jacket
+4.76 laptop
+4.37 jersey
+4.03 pick
+images/975.jpg
+61.91 hot pot
+9.53 frying pan
+4.90 wok
+3.79 consomme
+3.64 caldron
+images/976.jpg
+7.53 monastery
+3.71 bell cote
+3.45 drilling platform
+3.02 tobacco shop
+2.76 palace
+images/977.jpg
+24.50 stage
+11.34 toyshop
+9.86 space shuttle
+4.37 drilling platform
+2.34 comic book
+images/978.jpg
+28.89 web site
+26.49 screen
+10.72 hand-held computer
+9.18 desktop computer
+5.81 television
+images/979.jpg
+16.23 red wine
+13.78 hot pot
+11.79 eggnog
+9.90 wine bottle
+8.42 frying pan
+images/98.jpg
+79.88 cowboy boot
+6.83 clog
+5.72 running shoe
+4.48 Loafer
+2.34 shoe shop
+images/980.jpg
+20.20 steam locomotive
+11.57 carpenter's kit
+9.87 bulletproof vest
+3.07 trailer truck
+2.55 stretcher
+images/981.jpg
+97.30 pizza
+1.68 potpie
+0.22 hot pot
+0.20 frying pan
+0.20 carbonara
+images/982.jpg
+23.82 steel arch bridge
+11.57 boathouse
+11.55 greenhouse
+10.82 pier
+6.11 planetarium
+images/983.jpg
+8.99 stethoscope
+3.53 gas pump
+2.55 hook
+1.93 packet
+1.91 vacuum
+images/984.jpg
+63.61 magnetic compass
+15.83 barometer
+5.95 stopwatch
+4.08 scale
+3.73 sundial
+images/985.jpg
+12.88 web site
+12.45 book jacket
+10.92 digital clock
+2.83 scoreboard
+2.28 stopwatch
+images/986.jpg
+47.48 web site
+18.51 book jacket
+15.40 comic book
+3.64 packet
+1.92 nematode
+images/987.jpg
+38.39 carousel
+10.02 horizontal bar
+4.66 parallel bars
+3.56 pole
+3.48 harp
+images/988.jpg
+28.51 book jacket
+12.81 balance beam
+7.93 comic book
+2.62 snorkel
+2.03 maillot
+images/989.jpg
+38.83 vestment
+10.32 plate
+4.55 potter's wheel
+3.46 hot pot
+3.33 mortar
+images/99.jpg
+29.39 bakery
+11.31 toyshop
+4.95 pretzel
+4.64 cheeseburger
+4.15 bagel
+images/990.jpg
+4.16 stretcher
+3.62 television
+3.45 barber chair
+3.30 home theater
+3.25 studio couch
+images/991.jpg
+78.72 balance beam
+15.36 horizontal bar
+1.15 racket
+0.79 parallel bars
+0.51 tennis ball
+images/992.jpg
+22.00 stove
+18.33 solar dish
+13.92 oscilloscope
+11.20 spotlight
+8.82 theater curtain
+images/993.jpg
+96.01 indri
+0.38 Madagascar cat
+0.34 Chihuahua
+0.28 titi
+0.14 proboscis monkey
+images/994.jpg
+66.08 comic book
+33.67 toyshop
+0.08 jigsaw puzzle
+0.05 bookshop
+0.03 confectionery
+images/995.jpg
+9.70 switch
+4.92 hook
+4.82 screen
+4.73 web site
+4.72 spotlight
+images/996.jpg
+77.25 basketball
+1.84 ski mask
+1.24 punching bag
+1.23 tennis ball
+0.90 ping-pong ball
+images/997.jpg
+75.11 alp
+23.28 valley
+1.09 cliff
+0.12 mountain tent
+0.11 volcano
+images/998.jpg
+7.99 switch
+7.80 projector
+5.10 spotlight
+4.50 space heater
+4.29 waffle iron
+images/999.jpg
+12.13 football helmet
+6.38 balloon
+5.82 basketball
+5.42 soccer ball
+3.59 rugby ball

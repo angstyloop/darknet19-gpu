@@ -1,6 +1,8 @@
-images
+1000_images
+1000_images.zip
 darknet
 predict_classifier_multi
+times.txt
 
 # Prerequisites
 *.d
