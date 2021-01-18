@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.0-devel-ubuntu18.04
+FROM nvidia/cuda:11.0-devel-ubuntu18.04
 #FROM ubuntu:18.04
 
 WORKDIR /opt/docker
